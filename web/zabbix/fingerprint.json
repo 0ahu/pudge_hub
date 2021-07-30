@@ -1,0 +1,21 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "zabbix",
+      "Zabbix SIA"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "892542951"
+    ]
+  }
+]

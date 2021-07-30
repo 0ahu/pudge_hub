@@ -1,0 +1,22 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "sys/ui/extend/theme/default/style/icon.css",
+      "sys/ui/extend/theme/default/style/profile.css"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "\u84dd\u51cc\u8f6f\u4ef6",
+      "App_Themes/Login"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

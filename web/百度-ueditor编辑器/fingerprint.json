@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "ueditor.all.js",
+      "UE.getEditor"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

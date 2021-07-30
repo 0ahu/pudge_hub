@@ -1,0 +1,13 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "\u7528\u6237\u767b\u5f55",
+      "resources/commonImage/favicon.ico",
+      "login/createQRCode.do"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

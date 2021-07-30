@@ -1,0 +1,20 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [],
+    "headers": [
+      "rememberMe="
+    ],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [],
+    "headers": [
+      "=deleteMe"
+    ],
+    "favicon_hash": []
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "-505448917"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "Discuz!",
+      "Comsenz",
+      "cache/"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

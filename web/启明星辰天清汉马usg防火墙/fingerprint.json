@@ -1,0 +1,20 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "/cgi-bin/webui?op=get_product_model"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "\u5929\u6e05\u6c49\u9a6cUSG"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

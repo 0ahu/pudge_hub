@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "/manager/status",
+      "/manager/html"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

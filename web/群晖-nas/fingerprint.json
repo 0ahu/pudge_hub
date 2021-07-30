@@ -1,0 +1,23 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "Synology",
+      "webman/"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "DiskStation",
+      "webman/modules",
+      "NAS"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "/por/login_psw.csp"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "loginPageSP/loginPrivacy.js"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

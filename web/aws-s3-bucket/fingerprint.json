@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "InvalidBucketName",
+      "aliyuncs"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

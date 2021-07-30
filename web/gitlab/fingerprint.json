@@ -1,0 +1,29 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "assets/gitlab_logo"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "1278323681"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "516963061"
+    ]
+  }
+]

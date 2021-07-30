@@ -1,0 +1,30 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "self.location",
+      "Lw=="
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "/theme/default/images/main/zt-logo.png"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [],
+    "headers": [
+      "zentaosid"
+    ],
+    "favicon_hash": []
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "1453890729"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "-1038557304"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "1280907310"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "keyword": [],
+    "headers": [],
+    "favicon_hash": [
+      "479413330"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "Webmin",
+      "session_login"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "<title>Welcome to CentOS</title>",
+      "img/centos-logo.png",
+      "centos.org"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "assets/img/favicon.ico",
+      "bootstrap.min.css",
+      "navbar-toggle"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "ajax\\/upload",
+      "assets/img/favicon.ico",
+      "fastadmin"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

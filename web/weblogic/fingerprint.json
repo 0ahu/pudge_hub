@@ -1,0 +1,47 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "Error 404--Not Found"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "Error 403--"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "/console/framework/skins/wlsconsole/images/login_WebLogic_branding.png"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "Welcome to Weblogic Application Server"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "<i>Hypertext Transfer Protocol -- HTTP/1.1</i>"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]

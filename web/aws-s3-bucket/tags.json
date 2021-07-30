@@ -1,0 +1,8 @@
+{
+  "tags": [
+    [
+      "aws-s3-bucket"
+    ]
+  ],
+  "alias_name": "aws-s3-bucket"
+}

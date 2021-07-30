@@ -1,0 +1,20 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "/seeyon/USER-DATA/IMAGES/LOGIN/login.gif"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/",
+    "keyword": [
+      "/seeyon/common/"
+    ],
+    "headers": [],
+    "favicon_hash": []
+  }
+]
