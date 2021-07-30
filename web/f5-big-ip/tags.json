@@ -1,7 +1,7 @@
 {
   "tags": [
     [
-      "f5-big-ip"
+      "bigip"
     ]
   ],
   "alias_name": "f5-big-ip"

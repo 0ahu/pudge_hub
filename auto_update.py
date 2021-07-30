@@ -371,7 +371,7 @@ def file_to_db():
         for file_name in file_list:
             abs_filename = os.path.abspath(os.path.join(site, file_name))
             cms_name = Path(site).name
-            if cms_name != 'web':
+            if cms_name != 'web' and cms_name:
                 cms_list_set.add(cms_name)
                 web_name = create_component(name=cms_name)
                 if file_name == 'fingerprint.json':
@@ -503,44 +503,6 @@ if __name__ == '__main__':
         file_to_db()
         update_readme(path="web/")
     except Exception as E:
-        print(E)
         pass
     update_web_fingerprint_to_file()
     Config.objects.update_or_create(key="updating", defaults={'value': False})  # 更新结束标志
-
-
-# def finger_to_plugin():
-#     with open('.github/scripts/finger.json', 'r') as p:
-#         fp = json.load(p)
-#     for fp_key in fp['fingerprint']:
-#         new_cms = replace_name(fp_key.pop('cms'))
-#         keyword = fp_key.pop('keyword')
-#         if fp_key['method'] == 'faviconhash':  # 匹配位置肯定是body
-#             new_fp_key = dict(path='/favicon.ico', favicon_hash=keyword, headers=[], keyword=[], status_code=0)
-#         else:
-#             if fp_key.get('location') == 'header':
-#                 new_fp_key = dict(path='/', favicon_hash=[], headers=keyword, keyword=[], status_code=0)
-#             else:
-#                 new_fp_key = dict(path='/', favicon_hash=[], headers=[], keyword=keyword, status_code=0)
-#         if not os.path.exists('web/' + new_cms):
-#             os.makedirs('web/' + new_cms)
-#         sorted_dict = dict(sorted(new_fp_key.items(), key=lambda item: ord(item[0][0]), reverse=True))  # 排序
-#         fingerprint_path = 'web/' + new_cms + '/fingerprint.json'
-#         if not os.path.exists(fingerprint_path):
-#             with open(fingerprint_path, 'w') as fpf:
-#                 json.dump([sorted_dict], fpf, indent=2)
-#         else:
-#             with open(fingerprint_path, 'r') as fpf_r:
-#                 f = json.load(fpf_r)
-#                 if sorted_dict not in f:
-#                     f.append(sorted_dict)
-#                     with open(fingerprint_path, 'w') as fpf_w:
-#                         json.dump(f, fpf_w, indent=2)
-#         if new_cms:
-#             tags_path = 'web/' + new_cms + '/tags.json'
-#             if not os.path.exists(tags_path):
-#                 with open(tags_path, 'w') as tag_file:
-#                     tags_dict = {'tags': [[new_cms]], 'alias_name': new_cms}
-#                     json.dump(tags_dict, tag_file, indent=2)
-#
-# finger_to_plugin()

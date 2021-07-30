@@ -40,6 +40,7 @@ jobs:
       - name: Commit files
         if: steps.update-readme.outputs.changes > 0
         run: |
+          find . -path "*.pyc" -delete
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
