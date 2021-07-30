@@ -43,8 +43,8 @@
 |afterlogicwebmail系统|0|✔️||airwatch|0|✔️||alfresco|0|✔️|
 |alibaba-cloud|0|✔️||alibi-nvr|0|✔️||alienvault|0|✔️|
 |amazon|3|✔️||amh-云主机面板|0|✔️||angular-io|0|✔️|
-|apache-activemq|0|✔️||apache-airflow|0|✔️||apache-hadoop|0|✔️|
-|apache-haus|0|✔️||apache-skywalking|0|✔️||apache-tomcat|0|✔️|
+|apache-activemq|0|✔️||apache-airflow|6|✔️||apache-hadoop|0|✔️|
+|apache-haus|0|✔️||apache-skywalking|0|✔️||apache-tomcat|3|✔️|
 |apache2-debian-默认页|0|✔️||apache2-ubuntu-默认页|0|✔️||aplikasi|0|✔️|
 |apple|0|✔️||arbor-networks|0|✔️||arcadyan-o2-box|0|✔️|
 |archivematica|0|✔️||arris|0|✔️||aruba|0|✔️|
@@ -65,7 +65,7 @@
 |cisco-meraki-dashboard|0|✔️||cisco-router|0|✔️||cisco-sslvpn|0|✔️|
 |citrix-access-gateway|0|✔️||citrix-虚拟桌面|0|✔️||claimtime|0|✔️|
 |cnservers-llc|0|✔️||combivox|0|✔️||communigate|0|✔️|
-|consul-by-hashicorp|0|✔️||coremail|0|✔️||cpanel-login|0|✔️|
+|consul-by-hashicorp|0|✔️||coremail|1|✔️||cpanel-login|0|✔️|
 |cradlepoint|0|✔️||cradlepoint-technology|0|✔️||crushftp|0|✔️|
 |cx|0|✔️||cyberoam|0|✔️||d-link|0|✔️|
 |dahua|0|✔️||dahua-storm|0|✔️||dd-wrt|0|✔️|
@@ -78,7 +78,7 @@
 |e-cology-运维管理平台|0|✔️||e-mobile|0|✔️||ecology|2|✔️|
 |elastic|4|✔️||eltex|0|✔️||endian-firewall|0|✔️|
 |entrolink|0|✔️||entronix-energy-management-platform|0|✔️||exacq|0|✔️|
-|exostar-managed-access-gateway|0|✔️||f5-big-ip|0|✔️||farming-simulator-dedicated-server|0|✔️|
+|exostar-managed-access-gateway|0|✔️||f5-big-ip|2|✔️||farming-simulator-dedicated-server|0|✔️|
 |fastadmin-框架|0|✔️||fastpanel-hosting|0|✔️||ferozo-panel|0|✔️|
 |fireeye|0|✔️||fireware-watchguard|0|✔️||flussonic|0|✔️|
 |formio|0|✔️||fortinet-forticlient|0|✔️||freebox-os|0|✔️|
@@ -120,7 +120,7 @@
 |mautic|0|✔️||mdaemon-remote-administration|0|✔️||mdaemon-webmail|0|✔️|
 |mersive-solstice|0|✔️||messagesolution-enterprise-email-archiving|0|✔️||metabase|0|✔️|
 |metasploit|0|✔️||microhard-systems|0|✔️||microsoft-iis|0|✔️|
-|microsoft-outlook|0|✔️||microsoft-owa|0|✔️||minio|0|✔️|
+|microsoft-outlook|0|✔️||microsoft-owa|0|✔️||minio|1|✔️|
 |mitel-networks|0|✔️||mk-auth|0|✔️||mobileiron|1|✔️|
 |mobotix-camera|0|✔️||mofinetwork|0|✔️||moodle|4|✔️|
 |motioneye|0|✔️||moxapass-iologik-remote-ethernet-io-server|0|✔️||multilaser|0|✔️|
@@ -190,11 +190,11 @@
 |wildfly|0|✔️||windows-azure|0|✔️||windriver-webserver|0|✔️|
 |wispr|0|✔️||wordpress|181|✔️||wordpress-under-construction-icon|0|✔️|
 |workday|0|✔️||worldclient-for-mdaemon|0|✔️||xampp|0|✔️|
-|yapi-可视化接口管理平台|0|✔️||yasni|0|✔️||yii-php-framework|0|✔️|
+|yapi-可视化接口管理平台|1|✔️||yasni|0|✔️||yii-php-framework|0|✔️|
 |yonyou-nc|0|✔️||zabbix|3|✔️||zhejiang-uniview-technologies-co|0|✔️|
 |zte|1|✔️||zte-corporation|0|✔️||zyxel|0|✔️|
 |zyxel-zywall|0|✔️||中成科信-综合管理平台|0|✔️||中新金盾信息安全管理系统|0|✔️|
-|中腾oa|0|✔️||二级域名分发系统|0|✔️||亿邮邮件系统|0|✔️|
+|中腾oa|0|✔️||二级域名分发系统|0|✔️||亿邮邮件系统|1|✔️|
 |列目录|0|✔️||华天动力oa|0|✔️||协众oa|0|✔️|
 |协达oa|0|✔️||后台|0|✔️||启明星辰天清汉马usg防火墙|0|✔️|
 |图创图书馆集群管理系统|0|✔️||天融信防火墙|0|✔️||天迈科技网络视频监控系统|0|✔️|
@@ -218,5 +218,5 @@
 |通达oa|0|✔️||金合oa|0|✔️||金山timeon云杀毒|0|✔️|
 |金山终端安全|0|✔️||金蝶云星空|0|✔️||锐捷-nbr-路由器|0|✔️|
 |锐捷-rg-ew1200g|0|✔️||锐捷-ruijie-networks|0|✔️||锐捷-sslvpn|0|✔️|
-|阿里巴巴otter-manager|0|✔️||飞鱼星上网行为管理|0|✔️||骑士-74cms|0|✔️|
+|阿里巴巴otter-manager|0|✔️||飞鱼星上网行为管理|0|✔️||骑士-74cms|1|✔️|
 ||||||||||||
