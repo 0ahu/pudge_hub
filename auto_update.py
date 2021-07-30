@@ -371,7 +371,7 @@ def file_to_db():
         for file_name in file_list:
             abs_filename = os.path.abspath(os.path.join(site, file_name))
             cms_name = Path(site).name
-            if cms_name != 'web' and cms_name:
+            if file_name != 'web' and cms_name:
                 cms_list_set.add(cms_name)
                 web_name = create_component(name=cms_name)
                 if file_name == 'fingerprint.json':
