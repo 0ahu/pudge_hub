@@ -35,12 +35,12 @@ jobs:
           pip install requests
           pip install django
           python auto_update.py
+          find . -path "*.pyc" -delete
           echo "::set-output name=changes::$(git status -s | wc -l)"
 
       - name: Commit files
-        if: steps.update-readme.outputs.changes > 0
+        if: steps.update-readme.outputs.changes > 1
         run: |
-          find . -path "*.pyc" -delete
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .

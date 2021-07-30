@@ -448,9 +448,10 @@ def tags_list_generator(path, tag_flag=False):
             for file_name in file_list:
                 if file_name == 'fingerprint.json':
                     has_fingerprint = '✔️'
-        info_dict = {'name': Path(site).name, 'count': len(file_list) - 2 if has_fingerprint else len(file_list),
-                     'has_fingerprint': has_fingerprint}
-        plugins_count_dict.setdefault(Path(site).name, info_dict)
+        if Path(site).name != 'web':
+            info_dict = {'name': Path(site).name, 'count': len(file_list) - 2 if has_fingerprint else len(file_list),
+                         'has_fingerprint': has_fingerprint}
+            plugins_count_dict.setdefault(Path(site).name, info_dict)
     return dict(sorted(plugins_count_dict.items()))
 
 
