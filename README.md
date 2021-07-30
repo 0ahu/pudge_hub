@@ -184,7 +184,7 @@
 |vmware-horizon|0|✔️||vmware-secure-file-transfer|0|✔️||vmware-vcenter|0|✔️|
 |vmware-vrealize-operations-manager|0|✔️||vodafone|0|✔️||vzpp-plesk|0|✔️|
 |wampserver|0|✔️||watchguard|0|✔️||wdcp-cloud-host-management-system|0|✔️|
-|wdcp-云主机面板|0|✔️||web|-1|✔️||web-client-pro|0|✔️|
+|wdcp-云主机面板|0|✔️||web|-2|✖️||web-client-pro|0|✔️|
 |weblogic|10|✔️||webmin|1|✔️||websockets-test-page|0|✔️|
 |weiphp|1|✔️||whm|0|✔️||wijungle|0|✔️|
 |wildfly|0|✔️||windows-azure|0|✔️||windriver-webserver|0|✔️|
@@ -215,8 +215,7 @@
 |致远oa|0|✔️||致远oa-m1-server|0|✔️||致远oa-m3-server|0|✔️|
 |若依-管理系统|0|✔️||蓝凌-oa|0|✔️||蓝凌eis智慧协同平台|0|✔️|
 |蓝盾防火墙|0|✔️||蜂网企业流控云路由器|0|✔️||资产灯塔系统|0|✔️|
-|通达oa|0|✔️||金合oa|0|✔️||金山timeon云杀毒|0|✔️|
-|金山终端安全|0|✔️||金蝶云星空|0|✔️||锐捷-nbr-路由器|0|✔️|
-|锐捷-rg-ew1200g|0|✔️||锐捷-ruijie-networks|0|✔️||锐捷-sslvpn|0|✔️|
-|阿里巴巴otter-manager|0|✔️||飞鱼星上网行为管理|0|✔️||骑士-74cms|1|✔️|
-||||||||||||
+|金合oa|0|✔️||金山timeon云杀毒|0|✔️||金山终端安全|0|✔️|
+|金蝶云星空|0|✔️||锐捷-nbr-路由器|0|✔️||锐捷-rg-ew1200g|0|✔️|
+|锐捷-ruijie-networks|0|✔️||锐捷-sslvpn|0|✔️||阿里巴巴otter-manager|0|✔️|
+|飞鱼星上网行为管理|0|✔️||骑士-74cms|1|✔️|||||
