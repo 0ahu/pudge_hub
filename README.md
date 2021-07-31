@@ -188,7 +188,7 @@
 |[web-client-pro](./web/web-client-pro/)|0|✔️||[weblogic](./web/weblogic/)|10|✔️||[webmin](./web/webmin/)|1|✔️|
 |[websockets-test-page](./web/websockets-test-page/)|0|✔️||[weiphp](./web/weiphp/)|1|✔️||[whm](./web/whm/)|0|✔️|
 |[wijungle](./web/wijungle/)|0|✔️||[wildfly](./web/wildfly/)|0|✔️||[windows-azure](./web/windows-azure/)|0|✔️|
-|[windriver-webserver](./web/windriver-webserver/)|0|✔️||[wispr](./web/wispr/)|0|✔️||[wordpress](./web/wordpress/)|181|✔️|
+|[windriver-webserver](./web/windriver-webserver/)|0|✔️||[wispr](./web/wispr/)|0|✔️||[wordpress](./web/wordpress/)|183|✔️|
 |[workday](./web/workday/)|0|✔️||[worldclient-for-mdaemon](./web/worldclient-for-mdaemon/)|0|✔️||[xampp](./web/xampp/)|0|✔️|
 |[yapi-可视化接口管理平台](./web/yapi-可视化接口管理平台/)|1|✔️||[yasni](./web/yasni/)|0|✔️||[yii-php-framework](./web/yii-php-framework/)|0|✔️|
 |[yonyou-nc](./web/yonyou-nc/)|0|✔️||[zabbix](./web/zabbix/)|3|✔️||[zhejiang-uniview-technologies-co](./web/zhejiang-uniview-technologies-co/)|0|✔️|
