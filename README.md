@@ -37,13 +37,13 @@
 
 | Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 |
 | ------- | -------- | -------- | ------- | -------- | -------- | ------- | -------- | -------- | -------- | -------- |
-|[360天堤新一代智慧防火墙](./web/360天堤新一代智慧防火墙/)|0|✔️||[360网神防火墙系统](./web/360网神防火墙系统/)|1|✔️||[3cx-phone-system](./web/3cx-phone-system/)|0|✔️|
+|[360天堤新一代智慧防火墙](./web/360天堤新一代智慧防火墙/)|0|✔️||[360网神防火墙系统](./web/360网神防火墙系统/)|0|✔️||[3cx-phone-system](./web/3cx-phone-system/)|0|✔️|
 |[401-登陆认证](./web/401-登陆认证/)|0|✔️||[abilis](./web/abilis/)|0|✔️||[accrisoft](./web/accrisoft/)|0|✔️|
 |[ace](./web/ace/)|0|✔️||[adb-broadband-spa](./web/adb-broadband-spa/)|0|✔️||[adobe-campaign-classic](./web/adobe-campaign-classic/)|0|✔️|
 |[afterlogicwebmail系统](./web/afterlogicwebmail系统/)|0|✔️||[airwatch](./web/airwatch/)|0|✔️||[alfresco](./web/alfresco/)|0|✔️|
 |[alibaba-cloud](./web/alibaba-cloud/)|0|✔️||[alibi-nvr](./web/alibi-nvr/)|0|✔️||[alienvault](./web/alienvault/)|0|✔️|
 |[amazon](./web/amazon/)|3|✔️||[amh-云主机面板](./web/amh-云主机面板/)|0|✔️||[angular-io](./web/angular-io/)|0|✔️|
-|[apache-activemq](./web/apache-activemq/)|55|✔️||[apache-airflow](./web/apache-airflow/)|6|✔️||[apache-hadoop](./web/apache-hadoop/)|0|✔️|
+|[apache-activemq](./web/apache-activemq/)|2|✔️||[apache-airflow](./web/apache-airflow/)|6|✔️||[apache-hadoop](./web/apache-hadoop/)|0|✔️|
 |[apache-haus](./web/apache-haus/)|0|✔️||[apache-skywalking](./web/apache-skywalking/)|0|✔️||[apache-tomcat](./web/apache-tomcat/)|3|✔️|
 |[apache2-debian-默认页](./web/apache2-debian-默认页/)|0|✔️||[apache2-ubuntu-默认页](./web/apache2-ubuntu-默认页/)|0|✔️||[aplikasi](./web/aplikasi/)|0|✔️|
 |[apple](./web/apple/)|0|✔️||[arbor-networks](./web/arbor-networks/)|0|✔️||[arcadyan-o2-box](./web/arcadyan-o2-box/)|0|✔️|
@@ -163,7 +163,7 @@
 |[smartping](./web/smartping/)|0|✔️||[solar-网络管理系统](./web/solar-网络管理系统/)|0|✔️||[solarwinds-serv-u-ftp-server](./web/solarwinds-serv-u-ftp-server/)|0|✔️|
 |[sonarqube](./web/sonarqube/)|2|✔️||[sonatype-nexus-repository-manager](./web/sonatype-nexus-repository-manager/)|0|✔️||[sonicwall](./web/sonicwall/)|2|✔️|
 |[sophos-cyberoam](./web/sophos-cyberoam/)|0|✔️||[sophos-user-portalvpn-portal](./web/sophos-user-portalvpn-portal/)|0|✔️||[spamexperts](./web/spamexperts/)|0|✔️|
-|[spiceworks](./web/spiceworks/)|0|✔️||[spring-env](./web/spring-env/)|0|✔️||[springboot](./web/springboot/)|12|✔️|
+|[spiceworks](./web/spiceworks/)|0|✔️||[spring-env](./web/spring-env/)|0|✔️||[springboot](./web/springboot/)|11|✔️|
 |[starface-voip-software](./web/starface-voip-software/)|0|✔️||[struxureware](./web/struxureware/)|0|✔️||[sunny-webbox](./web/sunny-webbox/)|0|✔️|
 |[supermap-iserver-web-manager](./web/supermap-iserver-web-manager/)|0|✔️||[supermicro-intelligent-management](./web/supermicro-intelligent-management/)|0|✔️||[surfilter-ssl-vpn-portal](./web/surfilter-ssl-vpn-portal/)|0|✔️|
 |[swagger-ui](./web/swagger-ui/)|0|✔️||[syncthru-web-service](./web/syncthru-web-service/)|0|✔️||[synology-diskstation](./web/synology-diskstation/)|0|✔️|

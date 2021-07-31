@@ -322,11 +322,16 @@ def create_fingerprint(web_name, fingerprint):
 
 
 def create_tags(web_name, tags):
-    for tag in tags.get('tags', []):
+    locale_tags = tags.get('tags', [])
+    web_name_tags = Tags.objects.filter(name=web_name).values('name', 'tag')
+    for tag in locale_tags:
         try:
             Tags.objects.get_or_create(defaults={'name': web_name}, tag=tag)
         except WebFingerPrint.DoesNotExist:
             Tags.objects.create(web_name=web_name, tag=tag)
+    for db_tag in web_name_tags:  # 删除数据库中失效的标签
+        if db_tag.get('tag') not in locale_tags:
+            Tags.objects.filter(**db_tag).delete()
 
 
 def find_tag():
@@ -343,7 +348,7 @@ def find_tag():
                         try:
                             tags = set(yaml_template.get('info')['tags'].split(','))
                             for db_tags in tags_list:
-                                tags_set = tags.intersection(db_tags.get('tag', []))
+                                tags_set = tags.issuperset(db_tags.get('tag', []))
                                 pk = db_tags.get('name', 0)
                                 if tags_set:
                                     defaults = {'code': json.dumps(yaml_template),
@@ -353,7 +358,7 @@ def find_tag():
                                     plugin_name, _ = Plugins.objects.update_or_create(name=file_name, defaults=defaults)
                                     web_name = Component.objects.get(pk=pk)
                                     plugin_name.component.add(web_name)
-                                    print(plugin_name, _)
+                                    # print(plugin_name, _)
                                     shutil.copy(abs_filename, os.path.join(web_poc_path, web_name.name, file_name))
                         except KeyError:
                             pass

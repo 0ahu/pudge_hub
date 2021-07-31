@@ -1,9 +1,9 @@
 {
   "tags": [
     [
-      "jenkins",
-      "jenkin"
-    ]
+      "jenkins"
+    ],
+    ["jenkin"]
   ],
   "alias_name": "jenkins"
 }

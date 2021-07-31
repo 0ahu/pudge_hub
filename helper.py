@@ -1,3 +1,4 @@
+import json
 import os
 import yaml
 
@@ -40,4 +41,20 @@ def find_unclassified_yaml():  # 列出未分类的yaml
                         pass
 
 
-find_unclassified_yaml()
+def check_json():  # 检查json格式
+    for site, site_list, file_list in os.walk('web/'):
+        for file_name in file_list:
+            abs_filename = os.path.abspath(os.path.join(site, file_name))
+            if file_name.endswith('.json') and not file_name.startswith('.'):  # 覆盖
+                with open(abs_filename) as j:
+                    try:
+                        json.load(j)
+                    except Exception:
+                        print("格式错误：", abs_filename)
+
+
+# find_unclassified_yaml()
+# check_json()
+if __name__ == '__main__':
+    find_unclassified_yaml()
+    check_json()

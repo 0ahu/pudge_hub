@@ -1,9 +1,6 @@
 {
   "tags": [
-    [
-      "apache",
-      "activemq"
-    ]
+    ["activemq"]
   ],
   "alias_name": "apache-activemq"
 }
