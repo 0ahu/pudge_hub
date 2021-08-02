@@ -187,10 +187,10 @@
 |[webmin](./web/webmin/)|1|✔️||[websockets-test-page](./web/websockets-test-page/)|0|✔️||[weiphp](./web/weiphp/)|1|✔️|
 |[whm](./web/whm/)|0|✔️||[wijungle](./web/wijungle/)|0|✔️||[wildfly](./web/wildfly/)|0|✔️|
 |[windows-azure](./web/windows-azure/)|0|✔️||[windriver-webserver](./web/windriver-webserver/)|0|✔️||[wispr](./web/wispr/)|0|✔️|
-|[wordpress](./web/wordpress/)|184|✔️||[workday](./web/workday/)|0|✔️||[worldclient-for-mdaemon](./web/worldclient-for-mdaemon/)|0|✔️|
+|[wordpress](./web/wordpress/)|186|✔️||[workday](./web/workday/)|0|✔️||[worldclient-for-mdaemon](./web/worldclient-for-mdaemon/)|0|✔️|
 |[xampp](./web/xampp/)|0|✔️||[yapi-可视化接口管理平台](./web/yapi-可视化接口管理平台/)|1|✔️||[yasni](./web/yasni/)|0|✔️|
 |[yii-php-framework](./web/yii-php-framework/)|1|✔️||[yonyou-nc](./web/yonyou-nc/)|0|✔️||[zabbix](./web/zabbix/)|3|✔️|
-|[zte](./web/zte/)|1|✔️||[zte-corporation](./web/zte-corporation/)|0|✔️||[zyxel](./web/zyxel/)|0|✔️|
+|[zte](./web/zte/)|1|✔️||[zte-corporation](./web/zte-corporation/)|0|✔️||[zyxel](./web/zyxel/)|1|✔️|
 |[zyxel-zywall](./web/zyxel-zywall/)|0|✔️||[中成科信-综合管理平台](./web/中成科信-综合管理平台/)|0|✔️||[中新金盾信息安全管理系统](./web/中新金盾信息安全管理系统/)|0|✔️|
 |[中腾oa](./web/中腾oa/)|0|✔️||[二级域名分发系统](./web/二级域名分发系统/)|0|✔️||[亿邮邮件系统](./web/亿邮邮件系统/)|1|✔️|
 |[列目录](./web/列目录/)|0|✔️||[华天动力oa](./web/华天动力oa/)|0|✔️||[协众oa](./web/协众oa/)|0|✔️|
