@@ -102,7 +102,7 @@
 |[ispconfig](./web/ispconfig/)|0|✔️||[iw](./web/iw/)|0|✔️||[jamf-pro-login](./web/jamf-pro-login/)|0|✔️|
 |[jaws-web-server](./web/jaws-web-server/)|0|✔️||[jboss](./web/jboss/)|1|✔️||[jboss-application-server-7](./web/jboss-application-server-7/)|0|✔️|
 |[jeecgboot](./web/jeecgboot/)|0|✔️||[jeecms](./web/jeecms/)|0|✔️||[jeedom](./web/jeedom/)|1|✔️|
-|[jellyfin](./web/jellyfin/)|2|✔️||[jenkins](./web/jenkins/)|9|✔️||[jetty](./web/jetty/)|5|✔️|
+|[jellyfin](./web/jellyfin/)|2|✔️||[jenkins](./web/jenkins/)|10|✔️||[jetty](./web/jetty/)|5|✔️|
 |[jira](./web/jira/)|24|✔️||[joomla](./web/joomla/)|6|✔️||[jspxcms](./web/jspxcms/)|0|✔️|
 |[jumpserver-堡垒机](./web/jumpserver-堡垒机/)|0|✔️||[juniper-device-manager](./web/juniper-device-manager/)|0|✔️||[jupyter-notebook](./web/jupyter-notebook/)|1|✔️|
 |[jupyterhub](./web/jupyterhub/)|0|✔️||[justhost](./web/justhost/)|0|✔️||[keenetic](./web/keenetic/)|0|✔️|
@@ -187,7 +187,7 @@
 |[webmin](./web/webmin/)|1|✔️||[websockets-test-page](./web/websockets-test-page/)|0|✔️||[weiphp](./web/weiphp/)|1|✔️|
 |[whm](./web/whm/)|0|✔️||[wijungle](./web/wijungle/)|0|✔️||[wildfly](./web/wildfly/)|0|✔️|
 |[windows-azure](./web/windows-azure/)|0|✔️||[windriver-webserver](./web/windriver-webserver/)|0|✔️||[wispr](./web/wispr/)|0|✔️|
-|[wordpress](./web/wordpress/)|186|✔️||[workday](./web/workday/)|0|✔️||[worldclient-for-mdaemon](./web/worldclient-for-mdaemon/)|0|✔️|
+|[wordpress](./web/wordpress/)|187|✔️||[workday](./web/workday/)|0|✔️||[worldclient-for-mdaemon](./web/worldclient-for-mdaemon/)|0|✔️|
 |[xampp](./web/xampp/)|0|✔️||[yapi-可视化接口管理平台](./web/yapi-可视化接口管理平台/)|1|✔️||[yasni](./web/yasni/)|0|✔️|
 |[yii-php-framework](./web/yii-php-framework/)|1|✔️||[yonyou-nc](./web/yonyou-nc/)|0|✔️||[zabbix](./web/zabbix/)|3|✔️|
 |[zte](./web/zte/)|1|✔️||[zte-corporation](./web/zte-corporation/)|0|✔️||[zyxel](./web/zyxel/)|1|✔️|
