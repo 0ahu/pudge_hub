@@ -82,7 +82,7 @@
 |[fireeye](./web/fireeye/)|0|✔️||[fireware-watchguard](./web/fireware-watchguard/)|0|✔️||[flussonic](./web/flussonic/)|0|✔️|
 |[formio](./web/formio/)|0|✔️||[fortinet-forticlient](./web/fortinet-forticlient/)|0|✔️||[freebox-os](./web/freebox-os/)|0|✔️|
 |[freerdp-远程rdp工具](./web/freerdp-远程rdp工具/)|0|✔️||[fritzbox](./web/fritzbox/)|0|✔️||[gargoyle-router-management-utility](./web/gargoyle-router-management-utility/)|0|✔️|
-|[ghost](./web/ghost/)|0|✔️||[gitbook](./web/gitbook/)|0|✔️||[gitea](./web/gitea/)|0|✔️|
+|[ghost](./web/ghost/)|1|✔️||[gitbook](./web/gitbook/)|0|✔️||[gitea](./web/gitea/)|0|✔️|
 |[gitlab](./web/gitlab/)|7|✔️||[glpi](./web/glpi/)|1|✔️||[gogs](./web/gogs/)|1|✔️|
 |[google](./web/google/)|4|✔️||[gpon-home-gateway](./web/gpon-home-gateway/)|0|✔️||[grafana](./web/grafana/)|3|✔️|
 |[graphql](./web/graphql/)|0|✔️||[h3c-er3100](./web/h3c-er3100/)|0|✔️||[h3c-er3200-路由器](./web/h3c-er3200-路由器/)|0|✔️|
