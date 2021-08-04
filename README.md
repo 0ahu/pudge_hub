@@ -114,10 +114,10 @@
 |[vmware-secure-file-transfer](./web/vmware-secure-file-transfer/)|0|✔️||[vmware-vcenter](./web/vmware-vcenter/)|2|✔️||[vmware-vrealize-operations-manager](./web/vmware-vrealize-operations-manager/)|1|✔️|
 |[vmware-vsphere](./web/vmware-vsphere/)|0|✔️||[wayos维盟ac集中管理系统](./web/wayos维盟ac集中管理系统/)|0|✔️||[weblogic](./web/weblogic/)|10|✔️|
 |[webmin](./web/webmin/)|1|✔️||[weiphp](./web/weiphp/)|1|✔️||[wishoa](./web/wishoa/)|0|✔️|
-|[wordpress](./web/wordpress/)|187|✔️||[wuzhicms](./web/wuzhicms/)|1|✔️||[xdcms](./web/xdcms/)|1|✔️|
+|[wordpress](./web/wordpress/)|191|✔️||[wuzhicms](./web/wuzhicms/)|1|✔️||[xdcms](./web/xdcms/)|1|✔️|
 |[xiuno](./web/xiuno/)|1|✔️||[xxl-job](./web/xxl-job/)|1|✔️||[yapi](./web/yapi/)|1|✔️|
 |[yii-php-framework](./web/yii-php-framework/)|1|✔️||[zabbix](./web/zabbix/)|3|✔️||[zcms](./web/zcms/)|1|✔️|
-|[zentao](./web/zentao/)|0|✔️||[zimbra](./web/zimbra/)|1|✔️||[zte](./web/zte/)|1|✔️|
+|[zentao](./web/zentao/)|0|✔️||[zimbra](./web/zimbra/)|4|✔️||[zte](./web/zte/)|1|✔️|
 |[zyxel](./web/zyxel/)|1|✔️||[zzzcms](./web/zzzcms/)|1|✔️||[中新金盾防火墙](./web/中新金盾防火墙/)|0|✔️|
 |[任我行crm](./web/任我行crm/)|0|✔️||[任我行电商](./web/任我行电商/)|0|✔️||[华天动力协同oa办公系统](./web/华天动力协同oa办公系统/)|0|✔️|
 |[协众oa](./web/协众oa/)|0|✔️||[协达oa](./web/协达oa/)|0|✔️||[同城多用户商城](./web/同城多用户商城/)|0|✔️|
