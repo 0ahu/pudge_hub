@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 404,
+    "path": "/yunsee_not_found_test",
+    "name": "django",
+    "keyword": [
+      "Django"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

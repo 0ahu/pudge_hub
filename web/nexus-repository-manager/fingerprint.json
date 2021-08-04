@@ -1,0 +1,32 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "nexus-repository-manager",
+    "keyword": [
+      "<title>Nexus Repository Manager</title>"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "nexus-repository-manager",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "79a95f4f1c2cc36eea51fe66450acfa2"
+    ]
+  },
+  {
+    "status_code": 200,
+    "path": "/favicon.ico",
+    "name": "nexus-repository-manager",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "0c295d21ff53bdd0a95499db97acf0dd"
+    ]
+  }
+]

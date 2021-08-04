@@ -45,10 +45,10 @@ class ServiceProbe(object):
                 for r in m:
                     service_name = replace_name(r.pop('service'))
                     try:
-                        service, _ = Component.objects.get_or_create(name=service_name, belong_server=True)
+                        service, _ = Component.objects.get_or_create(name=service_name, is_server=True)
                     except django.db.utils.IntegrityError:
-                        service, _ = Component.objects.get_or_create(name=service_name, belong_web=True)
-                        Component.objects.filter(id=service.id).update(belong_server=True)
+                        service, _ = Component.objects.get_or_create(name=service_name, is_web=True)
+                        Component.objects.filter(id=service.id).update(is_server=True)
                     NmapFingerPrint.objects.get_or_create(probe=probe, service=service, **r)
                     if os.path.exists(server_poc_path + service_name):
                         if os.path.isdir(server_poc_path + service_name):
@@ -306,10 +306,10 @@ def replace_name(name):
 
 def create_component(name):
     try:
-        web_name, _ = Component.objects.get_or_create(name=name, belong_web=True)
+        web_name, _ = Component.objects.get_or_create(name=name, is_web=True)
     except django.db.utils.IntegrityError:
-        web_name, _ = Component.objects.get_or_create(name=name, belong_server=True)
-        Component.objects.filter(id=web_name.id).update(belong_web=True)
+        web_name, _ = Component.objects.get_or_create(name=name, is_server=True)
+        Component.objects.filter(id=web_name.id).update(is_web=True)
     return web_name
 
 
@@ -395,7 +395,7 @@ def file_to_db():
                         plugin_name, _ = Plugins.objects.update_or_create(name=file_name, defaults=defaults)
                         plugin_name.component.add(web_name)
     # 在数据库中删除本地没有的组件
-    component_queryset = Component.objects.filter(belong_web=True, belong_server=False).values('name')
+    component_queryset = Component.objects.filter(is_web=True, is_server=False).values('name')
     db_cms_list_set = set([name['name'] for name in component_queryset])
     diff_poc_set = db_cms_list_set.difference(cms_list_set)
     for diff_poc in diff_poc_set:
@@ -410,26 +410,52 @@ readme_md = """
 - 法律免责声明
 > 未经事先双方同意，使用Pudge攻击目标是非法的。Pudge仅用于安全测试目的
 
-## Web指纹
+## 指纹识别
 
-- 使用了[EHole](https://github.com/EdgeSecurityTeam/EHole)作为基础指纹，因为`EHole`只能识别首页和icon哈希，如果遇到首页和`favicon`都没有明显特征的JavaScript跳转网站会变得很无力，所以对`EHole`指纹的识别方式进行了改进，将首页的指纹分到请求的`path`为`/`下面，将网页图标的指纹分到请求`path`为`/favicon.ico`下面。
+- 最后还是用自己收集的指纹吧！
 
-- 例如：apache-tomcat的图标指纹为：
+### 关键词列表
 
 ```json
-[
-  {
-    "name":"apache-tomcat",
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-297069493"
-    ]
-  }
-]
+["FastAdmin", "fastadmin.net"]
 ```
+
+- 匹配什么：body
+- 条件：关键词全部匹配到了才继续。
+
+### 请求头字典
+
+```json
+{"X-Powered-By": "ThinkCMF"}
+
+{"Citrix-TransactionId": "*", "Set-Cookie": "xmscookie"}
+```
+
+- 匹配什么：请求头
+- 条件：在返回的请求头中获取键为`X-Powered-By`的值，判断值里是否存在`ThinkCMF`，存在才继续。
+- 条件：如果Key本身就是特征，而Value是不确定的可以填*，例如第二个：只要判断请求头中有`Citrix-TransactionId`就可以了。
+
+### 状态码
+
+```json
+0
+200
+404
+```
+
+- 匹配什么：状态码
+- 条件：只要状态码不为`0`，都要判断状态码与当前响应的状态码一致**(包括数据类型)**才继续。
+
+### 图标哈希
+
+```json
+["9672fea49d0e2d9f30961d485714aa3d"]
+["1708240621"]
+```
+
+- 匹配什么：获取图标的`md5`和`mmh3`放在一个集合里
+- 条件：用指纹库中的哈希列表转集合，使用集合运算取并集，如果有并集才继续。
+
 - 序列化后的输出格式为`web_fingerprint.json`，Web指纹不再和`EHole`同步更新。
 
 ## 插件

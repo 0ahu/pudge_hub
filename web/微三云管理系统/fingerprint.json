@@ -1,12 +1,12 @@
 [
   {
     "status_code": 0,
-    "path": "/",
+    "path": "/index/",
+    "name": "\u5fae\u4e09\u4e91\u7ba1\u7406\u7cfb\u7edf",
     "keyword": [
-      "WSY_logo",
-      "\u7ba1\u7406\u7cfb\u7edf MANAGEMENT SYSTEM"
+      "<dd>\u7ba1\u7406\u7cfb\u7edf MANAGEMENT SYSTEM</dd>"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

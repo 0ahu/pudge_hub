@@ -1,20 +1,13 @@
 [
   {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-1466673461"
-    ]
-  },
-  {
-    "status_code": 0,
+    "status_code": 302,
     "path": "/",
-    "keyword": [
-      "scripts/cnoa.extra.js"
-    ],
-    "headers": [],
+    "name": "\u534f\u4f17oa",
+    "keyword": [],
+    "headers": {
+      "Location": "index.php?app=main&func=passport&action=login",
+      "Set-Cookie": "CNOAOASESSID="
+    },
     "favicon_hash": []
   }
 ]

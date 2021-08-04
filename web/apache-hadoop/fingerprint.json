@@ -2,11 +2,12 @@
   {
     "status_code": 0,
     "path": "/",
+    "name": "apache-hadoop",
     "keyword": [
-      "static/hadoop-st.png",
-      "Cluster"
+      "/static/hadoop-st.png",
+      "parseHadoopProgress"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

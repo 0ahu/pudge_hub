@@ -1,11 +1,14 @@
 [
   {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "1969970750"
-    ]
+    "status_code": 200,
+    "path": "/",
+    "name": "gitea",
+    "keyword": [
+      "content=\"Gitea - Git with a cup of tea\""
+    ],
+    "headers": {
+      "Set-Cookie": "i_like_gitea"
+    },
+    "favicon_hash": []
   }
 ]

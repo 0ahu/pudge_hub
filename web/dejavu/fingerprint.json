@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "dejavu",
+    "keyword": [
+      "Dejavu, the missing Web UI for Elasticsearch"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

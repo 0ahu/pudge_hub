@@ -1,11 +1,12 @@
 [
   {
     "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "1969934080"
-    ]
+    "path": "/",
+    "name": "showdoc",
+    "keyword": [
+      "content=\u672c\u7f51\u7ad9\u57fa\u4e8e\u5f00\u6e90\u7248showdoc\u642d\u5efa"
+    ],
+    "headers": {},
+    "favicon_hash": []
   }
 ]

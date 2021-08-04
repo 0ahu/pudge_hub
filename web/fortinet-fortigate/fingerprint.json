@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "fortinet-fortigate",
+    "keyword": [
+      "top.location=window.location;top.location=\"/remote/login\";"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

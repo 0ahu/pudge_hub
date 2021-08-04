@@ -1,0 +1,14 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "zimbra",
+    "keyword": [
+      "ImgZimbraIcon"
+    ],
+    "headers": {
+      "Set-Cookie": "ZM_LOGIN_CSRF"
+    },
+    "favicon_hash": []
+  }
+]

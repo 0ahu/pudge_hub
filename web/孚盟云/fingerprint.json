@@ -1,0 +1,23 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "\u5b5a\u76df\u4e91",
+    "keyword": [
+      "fumasoft",
+      "\u5b5a\u76df\u4e91"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "\u5b5a\u76df\u4e91",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "d798209beb36c2d8efd96e58e421d060"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "zcms",
+    "keyword": [
+      "_ZCMS_ShowNewMessage",
+      "zcms_skin"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "ezoffice",
+    "keyword": [],
+    "headers": {
+      "Location": "/defaultroot/portal.jsp?access=oa"
+    },
+    "favicon_hash": []
+  }
+]

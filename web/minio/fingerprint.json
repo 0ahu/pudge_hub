@@ -1,11 +1,12 @@
 [
   {
     "status_code": 0,
-    "path": "/",
+    "path": "/minio/login",
+    "name": "minio",
     "keyword": [
-      "MinIO Browser"
+      "<title>MinIO Browser</title>"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

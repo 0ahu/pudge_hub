@@ -1,0 +1,22 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "zentao",
+    "keyword": [
+      "$('#zentao').addClass('btn-success');"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/zentao/favicon.ico",
+    "name": "zentao",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "e89fbe166ded2a714ef73377ece0062b"
+    ]
+  }
+]

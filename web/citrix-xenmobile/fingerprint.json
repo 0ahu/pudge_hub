@@ -1,0 +1,13 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "citrix-xenmobile",
+    "keyword": [],
+    "headers": {
+      "Citrix-TransactionId": "*",
+      "Set-Cookie": "xmscookie"
+    },
+    "favicon_hash": []
+  }
+]

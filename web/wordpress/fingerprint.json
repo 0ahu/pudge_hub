@@ -1,22 +1,12 @@
 [
   {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/",
+    "name": "wordpress",
     "keyword": [
-      "wp-admin",
-      "wp-content/"
+      "/wp-content/themes/"
     ],
-    "headers": [],
-    "favicon_hash": []
-  },
-  {
-    "status_code": 0,
-    "path": "/",
-    "keyword": [
-      "wp-",
-      "wp-content/themes/"
-    ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

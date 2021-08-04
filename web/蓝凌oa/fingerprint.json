@@ -1,0 +1,23 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "\u84dd\u51ccoa",
+    "keyword": [
+      "CurrentUserId",
+      "lui_login_button_div_c"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "\u84dd\u51ccoa",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "302464c3f6207d57240649926cfc7bd4"
+    ]
+  }
+]

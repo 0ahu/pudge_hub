@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "apache-struts",
+    "keyword": [
+      "content=\"Struts2 Showcase for Apache Struts Project\""
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

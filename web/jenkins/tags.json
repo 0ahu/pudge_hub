@@ -3,7 +3,9 @@
     [
       "jenkins"
     ],
-    ["jenkin"]
+    [
+      "jenkin"
+    ]
   ],
   "alias_name": "jenkins"
 }

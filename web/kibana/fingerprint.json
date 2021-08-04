@@ -1,47 +1,12 @@
 [
   {
-    "status_code": 0,
-    "path": "/favicon.ico",
+    "status_code": 302,
+    "path": "/yunsee_not_found_test",
+    "name": "kibana",
     "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-267431135"
-    ]
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-759754862"
-    ]
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-1200737715"
-    ]
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "75230260"
-    ]
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "1668183286"
-    ]
+    "headers": {
+      "kbn-name": "kibana"
+    },
+    "favicon_hash": []
   }
 ]

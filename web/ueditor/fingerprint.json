@@ -1,12 +1,12 @@
 [
   {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/",
+    "name": "ueditor",
     "keyword": [
-      "ueditor.all.js",
-      "UE.getEditor"
+      "ueditor.all.js"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

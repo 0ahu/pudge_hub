@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 200,
+    "path": "/admin",
+    "name": "thinkadmin",
+    "keyword": [
+      "ThinkAdmin</title>"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

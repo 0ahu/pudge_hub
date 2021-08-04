@@ -2,8 +2,21 @@
   {
     "status_code": 302,
     "path": "/",
+    "name": "apache-solr",
     "keyword": [],
-    "headers": ["/solr/"],
+    "headers": {
+      "Location": "/solr/"
+    },
     "favicon_hash": []
+  },
+  {
+    "status_code": 200,
+    "path": "/favicon.ico",
+    "name": "apache-solr",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "ed7d5c39c69262f4ba95418d4f909b10"
+    ]
   }
 ]

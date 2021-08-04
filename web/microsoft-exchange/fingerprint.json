@@ -1,0 +1,13 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "microsoft-exchange",
+    "keyword": [],
+    "headers": {
+      "Location": "/owa/",
+      "Server": "Microsoft"
+    },
+    "favicon_hash": []
+  }
+]

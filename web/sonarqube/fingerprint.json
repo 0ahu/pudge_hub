@@ -2,10 +2,11 @@
   {
     "status_code": 0,
     "path": "/favicon.ico",
+    "name": "sonarqube",
     "keyword": [],
-    "headers": [],
+    "headers": {},
     "favicon_hash": [
-      "1485257654"
+      "b4e4785d5852c563b9ae47cbb7af06fe"
     ]
   }
 ]

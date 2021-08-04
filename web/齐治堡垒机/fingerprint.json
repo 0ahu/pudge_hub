@@ -1,0 +1,22 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "\u9f50\u6cbb\u5821\u5792\u673a",
+    "keyword": [
+      "//xfpverifyExec.jsp;"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "\u9f50\u6cbb\u5821\u5792\u673a",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "48ee373f098d8e96e53b7dd778f09ff4"
+    ]
+  }
+]

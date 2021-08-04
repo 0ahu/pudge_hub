@@ -1,0 +1,23 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "confluence",
+    "keyword": [],
+    "headers": {
+      "Location": "/login.action?os_destination=",
+      "X-Confluence-Request-Time": "*"
+    },
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "confluence",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "966e60f8eb85b7ea43a7b0095f3e2336"
+    ]
+  }
+]

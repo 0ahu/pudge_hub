@@ -2,10 +2,11 @@
   {
     "status_code": 0,
     "path": "/",
+    "name": "thinkphp",
     "keyword": [],
-    "headers": [
-      "ThinkPHP"
-    ],
+    "headers": {
+      "X-Powered-By": "ThinkPHP"
+    },
     "favicon_hash": []
   }
 ]

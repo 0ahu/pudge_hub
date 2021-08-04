@@ -1,0 +1,28 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "splunk",
+    "keyword": [
+      "content=\"Splunk Inc.\""
+    ],
+    "headers": {
+      "Server": "Splunkd",
+      "Set-Cookie": "splunkweb_uid"
+    },
+    "favicon_hash": []
+  },
+  {
+    "status_code": 303,
+    "path": "/",
+    "name": "splunk",
+    "keyword": [
+      "<title>303 See Other</title>"
+    ],
+    "headers": {
+      "Server": "Splunkd",
+      "Set-Cookie": "ROUTEID"
+    },
+    "favicon_hash": []
+  }
+]

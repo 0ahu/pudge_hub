@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "apache-shiro",
+    "keyword": [],
+    "headers": {
+      "Set-Cookie": "rememberMe=deleteMe"
+    },
+    "favicon_hash": []
+  }
+]

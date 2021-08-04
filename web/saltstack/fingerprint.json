@@ -1,0 +1,24 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "saltstack",
+    "keyword": [
+      "<title>SaltStack</title>"
+    ],
+    "headers": {
+      "Server": "TornadoServer"
+    },
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/img/icons/favicon.png",
+    "name": "saltstack",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "8259624a1bf4f9a3e817c7bf80f52db9"
+    ]
+  }
+]

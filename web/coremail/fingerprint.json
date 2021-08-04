@@ -1,11 +1,32 @@
 [
   {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/",
+    "name": "coremail",
     "keyword": [
-      "coremail/common"
+      "/coremail/bundle/"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
+  },
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "coremail",
+    "keyword": [
+      "<a href=\"http://www.coremail.cn\" target=\"_blank\">"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "coremail",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "ad74ff8f9a2f630fc2c5e6b3aa0a5cb8"
+    ]
   }
 ]

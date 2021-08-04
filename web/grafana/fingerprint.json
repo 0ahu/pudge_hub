@@ -1,13 +1,12 @@
 [
   {
     "status_code": 0,
-    "path": "/",
+    "path": "/login",
+    "name": "grafana",
     "keyword": [
-      "Grafana",
-      "login",
       "grafana-app"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

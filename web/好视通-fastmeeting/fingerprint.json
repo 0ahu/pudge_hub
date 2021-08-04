@@ -1,0 +1,14 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "\u597d\u89c6\u901a-fastmeeting",
+    "keyword": [
+      "login/createQRCode.do",
+      "resources/commonImage/favicon.ico",
+      "\u7528\u6237\u767b\u5f55"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

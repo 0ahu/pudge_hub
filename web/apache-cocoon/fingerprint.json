@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "apache-cocoon",
+    "keyword": [],
+    "headers": {
+      "X-Cocoon-Version": "*"
+    },
+    "favicon_hash": []
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "360\u65b0\u5929\u64ce",
+    "keyword": [],
+    "headers": {
+      "Location": "/login?refer=%2F",
+      "Set-Cookie": "SKYLAR"
+    },
+    "favicon_hash": []
+  }
+]

@@ -1,11 +1,12 @@
 [
   {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "1766699363"
-    ]
+    "status_code": 200,
+    "path": "/",
+    "name": "apache-activemq",
+    "keyword": [
+      "<title>Apache ActiveMQ</title>"
+    ],
+    "headers": {},
+    "favicon_hash": []
   }
 ]

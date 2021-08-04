@@ -1,11 +1,12 @@
 [
   {
-    "status_code": 0,
-    "path": "/",
+    "status_code": 404,
+    "path": "/yunsee_not_found_test",
+    "name": "apache-airflow",
     "keyword": [
-      "Airflow - Login"
+      "Airflow 404 = lots of circles"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

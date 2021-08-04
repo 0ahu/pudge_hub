@@ -1,0 +1,13 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "apache-ambari",
+    "keyword": [
+      "\"/licenses/NOTICE.txt\"",
+      "<title>Ambari</title>"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

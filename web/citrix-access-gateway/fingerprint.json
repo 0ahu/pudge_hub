@@ -1,12 +1,14 @@
 [
   {
-    "status_code": 0,
+    "status_code": 302,
     "path": "/",
+    "name": "citrix-access-gateway",
     "keyword": [
-      "Citrix Access Gateway",
-      "login"
+      "\"/vpn/resources/{lang}\""
     ],
-    "headers": [],
+    "headers": {
+      "Location": "/vpn/index.html"
+    },
     "favicon_hash": []
   }
 ]

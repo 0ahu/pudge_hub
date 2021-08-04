@@ -1,11 +1,12 @@
 [
   {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/favicon.ico",
+    "name": "prometheus",
     "keyword": [],
-    "headers": [],
+    "headers": {},
     "favicon_hash": [
-      "-1399433489"
+      "5ee43b38986a144d6b5022ea8c8f748f"
     ]
   }
 ]

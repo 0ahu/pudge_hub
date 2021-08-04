@@ -2,19 +2,41 @@
   {
     "status_code": 0,
     "path": "/",
+    "name": "jboss",
     "keyword": [
-      "jboss.css"
+      "<a href=\"http://jboss.org\">"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   },
   {
     "status_code": 0,
     "path": "/favicon.ico",
+    "name": "jboss",
     "keyword": [],
-    "headers": [],
+    "headers": {},
     "favicon_hash": [
-      "-656811182"
+      "1b24a7a916a0e0901e381a0d6131b28d"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "jboss",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "78ee71862e89db1b1870197b40d026e5"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "jboss",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "799f70b71314a7508326d1d2f68f7519"
     ]
   }
 ]

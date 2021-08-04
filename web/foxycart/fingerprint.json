@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "foxycart",
+    "keyword": [
+      "<script src=\"//cdn.foxycart.com"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

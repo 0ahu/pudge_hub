@@ -2,11 +2,11 @@
   {
     "status_code": 0,
     "path": "/",
+    "name": "jeecms",
     "keyword": [
-      "/r/cms/www",
-      "shortcut icon"
+      "\"/cnf/r/cms/common.js\""
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

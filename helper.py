@@ -2,6 +2,8 @@ import json
 import os
 import yaml
 
+from auto_update import replace_name
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pudge_hub.settings')
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 import django

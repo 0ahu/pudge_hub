@@ -1,0 +1,22 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "ruijie-eweb\u7f51\u7ba1\u7cfb\u7edf",
+    "keyword": [
+      "<title>\u9510\u6377\u7f51\u7edc-EWEB\u7f51\u7ba1\u7cfb\u7edf</title>"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "ruijie-eweb\u7f51\u7ba1\u7cfb\u7edf",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "d8d7c9138e93d43579ebf2e384745ba8"
+    ]
+  }
+]

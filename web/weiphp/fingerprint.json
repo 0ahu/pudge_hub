@@ -1,13 +1,12 @@
 [
   {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/",
+    "name": "weiphp",
     "keyword": [
-      "weiphp.css",
-      "weiphp",
-      "Public/static"
+      "\u672c\u7cfb\u7edf\u7531<a href=\"http://www.weiphp.cn\" target=\"_blank\">weiphp</a>\u5f3a\u529b\u9a71\u52a8"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

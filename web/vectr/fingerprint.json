@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "vectr",
+    "keyword": [],
+    "headers": {
+      "Location": "/sra-purpletools-webui/app"
+    },
+    "favicon_hash": []
+  }
+]

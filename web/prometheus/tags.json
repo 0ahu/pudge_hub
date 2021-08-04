@@ -4,5 +4,5 @@
       "prometheus"
     ]
   ],
-  "alias_name": "prometheus-time-series-collection-and-processing-server"
+  "alias_name": "prometheus"
 }

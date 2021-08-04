@@ -1,0 +1,33 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "\u5b9d\u5854\u9762\u677f",
+    "keyword": [],
+    "headers": {
+      "Set-Cookie": "BT_PANEL_6"
+    },
+    "favicon_hash": []
+  },
+  {
+    "status_code": 200,
+    "path": "/login",
+    "name": "\u5b9d\u5854\u9762\u677f",
+    "keyword": [
+      "<title>\u5165\u53e3\u6821\u9a8c\u5931\u8d25</title>",
+      "\u5b9d\u5854"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 200,
+    "path": "/static/favicon.ico",
+    "name": "\u5b9d\u5854\u9762\u677f",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "aaedb6def36624d10ebb00de1d2e49e6"
+    ]
+  }
+]

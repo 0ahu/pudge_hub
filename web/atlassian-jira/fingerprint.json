@@ -1,29 +1,12 @@
 [
   {
     "status_code": 0,
-    "path": "/favicon.ico",
+    "path": "/",
+    "name": "atlassian-jira",
     "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "981867722"
-    ]
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "552727997"
-    ]
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-1581907337"
-    ]
+    "headers": {
+      "Location": "/secure/SetupMode!default.jspa"
+    },
+    "favicon_hash": []
   }
 ]

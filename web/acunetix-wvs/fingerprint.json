@@ -1,0 +1,22 @@
+[
+  {
+    "status_code": 200,
+    "path": "/favicon.ico",
+    "name": "acunetix-wvs",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "025a587e8522a7f6f39096674fbe7c69"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/images/favicon.ico",
+    "name": "acunetix-wvs",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "025a587e8522a7f6f39096674fbe7c69"
+    ]
+  }
+]

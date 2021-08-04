@@ -1,20 +1,12 @@
 [
   {
-    "status_code": 0,
-    "path": "/",
-    "keyword": [
-      "<title>RabbitMQ Management</title>"
-    ],
-    "headers": [],
-    "favicon_hash": []
-  },
-  {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/favicon.ico",
+    "name": "rabbitmq",
     "keyword": [],
-    "headers": [],
+    "headers": {},
     "favicon_hash": [
-      "1064742722"
+      "4aef220ab05308e3a3e8e4bec5984b2b"
     ]
   }
 ]

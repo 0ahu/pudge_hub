@@ -2,46 +2,31 @@
   {
     "status_code": 0,
     "path": "/",
+    "name": "weblogic",
     "keyword": [
-      "Error 404--Not Found"
+      "WebLogic"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   },
   {
     "status_code": 0,
     "path": "/",
+    "name": "weblogic",
     "keyword": [
-      "Error 403--"
+      "Hypertext Transfer Protocol"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   },
   {
     "status_code": 0,
-    "path": "/",
+    "path": "/console",
+    "name": "weblogic",
     "keyword": [
-      "/console/framework/skins/wlsconsole/images/login_WebLogic_branding.png"
+      "Oracle WebLogic Server"
     ],
-    "headers": [],
-    "favicon_hash": []
-  },
-  {
-    "status_code": 0,
-    "path": "/",
-    "keyword": [
-      "Welcome to Weblogic Application Server"
-    ],
-    "headers": [],
-    "favicon_hash": []
-  },
-  {
-    "status_code": 0,
-    "path": "/",
-    "keyword": [
-      "<i>Hypertext Transfer Protocol -- HTTP/1.1</i>"
-    ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

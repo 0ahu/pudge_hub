@@ -1,20 +1,32 @@
 [
   {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-167656799"
-    ]
+    "status_code": 200,
+    "path": "/",
+    "name": "drupal",
+    "keyword": [
+      "/misc/drupal.js"
+    ],
+    "headers": {},
+    "favicon_hash": []
   },
   {
     "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "1174841451"
-    ]
+    "path": "/",
+    "name": "drupal",
+    "keyword": [
+      "Powered by <a href=\"https://www.drupal.org\">Drupal</a>"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "drupal",
+    "keyword": [
+      "Drupal.settings"
+    ],
+    "headers": {},
+    "favicon_hash": []
   }
 ]

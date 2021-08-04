@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 302,
+    "path": "/",
+    "name": "laravel",
+    "keyword": [],
+    "headers": {
+      "Set-Cookie": "laravel_session="
+    },
+    "favicon_hash": []
+  }
+]

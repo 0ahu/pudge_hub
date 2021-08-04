@@ -1,0 +1,16 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "gate-one",
+    "keyword": [
+      "<div id=\"gateone\"></div>",
+      "gateone.css",
+      "gateone.js"
+    ],
+    "headers": {
+      "Server": "GateOne"
+    },
+    "favicon_hash": []
+  }
+]

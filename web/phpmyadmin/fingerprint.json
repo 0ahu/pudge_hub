@@ -1,20 +1,32 @@
 [
   {
     "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-1010568750"
-    ]
+    "path": "/",
+    "name": "phpmyadmin",
+    "keyword": [
+      "href=\"phpmyadmin.css.php"
+    ],
+    "headers": {},
+    "favicon_hash": []
   },
   {
     "status_code": 0,
     "path": "/favicon.ico",
+    "name": "phpmyadmin",
     "keyword": [],
-    "headers": [],
+    "headers": {},
     "favicon_hash": [
-      "-476231906"
+      "d037ef2f629a22ddadcf438e6be7a325"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/phpmyadmin/favicon.ico",
+    "name": "phpmyadmin",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "ebd8a51a6152d6da6436399bb4355488"
     ]
   }
 ]

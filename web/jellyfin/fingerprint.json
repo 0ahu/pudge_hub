@@ -1,11 +1,13 @@
 [
   {
     "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-2069226242"
-    ]
+    "path": "/",
+    "name": "jellyfin",
+    "keyword": [
+      "<title>Jellyfin</title>",
+      "content=\"Jellyfin\""
+    ],
+    "headers": {},
+    "favicon_hash": []
   }
 ]

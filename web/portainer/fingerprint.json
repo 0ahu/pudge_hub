@@ -1,11 +1,12 @@
 [
   {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-1424036600"
-    ]
+    "status_code": 200,
+    "path": "/",
+    "name": "portainer",
+    "keyword": [
+      "<meta name=\"author\" content=\"Portainer.io\" />"
+    ],
+    "headers": {},
+    "favicon_hash": []
   }
 ]

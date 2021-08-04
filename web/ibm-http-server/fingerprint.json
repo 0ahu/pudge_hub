@@ -1,12 +1,12 @@
 [
   {
-    "status_code": 0,
-    "path": "/",
-    "keyword": [
-      "IBM HTTP Server",
-      "Support"
-    ],
-    "headers": [],
-    "favicon_hash": []
+    "status_code": 200,
+    "path": "/images/ihs/favicon.ico",
+    "name": "ibm-http-server",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "d8ba35521dfc638f134cf3a64d1a6875"
+    ]
   }
 ]

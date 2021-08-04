@@ -1,0 +1,32 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "phpcms",
+    "keyword": [
+      "<a href=\"http://www.phpcms.cn\" target=\"_blank\">PHPCMS</a>"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "phpcms",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "6e9f36b06ea21f69f5374a0472c85415"
+    ]
+  },
+  {
+    "status_code": 0,
+    "path": "/favicon.ico",
+    "name": "phpcms",
+    "keyword": [],
+    "headers": {},
+    "favicon_hash": [
+      "18fb0c67f6a7e5c7ad62fc37c5ab7637"
+    ]
+  }
+]

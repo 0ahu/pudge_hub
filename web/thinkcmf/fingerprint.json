@@ -1,11 +1,22 @@
 [
   {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/",
+    "name": "thinkcmf",
     "keyword": [],
-    "headers": [
-      "ThinkCMF"
+    "headers": {
+      "X-Powered-By": "ThinkCMF"
+    },
+    "favicon_hash": []
+  },
+  {
+    "status_code": 404,
+    "path": "/yunsee_not_found_test",
+    "name": "thinkcmf",
+    "keyword": [
+      "<a title=\"\u5b98\u65b9\u7f51\u7ad9\" href=\"http://www.thinkcmf.com\">ThinkCMF</a>"
     ],
+    "headers": {},
     "favicon_hash": []
   }
 ]

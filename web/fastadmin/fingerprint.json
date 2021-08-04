@@ -2,23 +2,12 @@
   {
     "status_code": 0,
     "path": "/",
+    "name": "fastadmin",
     "keyword": [
-      "assets/img/favicon.ico",
-      "bootstrap.min.css",
-      "navbar-toggle"
+      "FastAdmin",
+      "fastadmin.net"
     ],
-    "headers": [],
-    "favicon_hash": []
-  },
-  {
-    "status_code": 0,
-    "path": "/",
-    "keyword": [
-      "ajax\\/upload",
-      "assets/img/favicon.ico",
-      "fastadmin"
-    ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

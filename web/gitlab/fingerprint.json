@@ -1,29 +1,12 @@
 [
   {
-    "status_code": 0,
-    "path": "/",
+    "status_code": 200,
+    "path": "/users/sign_in",
+    "name": "gitlab",
     "keyword": [
-      "assets/gitlab_logo"
+      "<meta content=\"GitLab\" property=\"og:site_name\">"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "1278323681"
-    ]
-  },
-  {
-    "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "516963061"
-    ]
   }
 ]

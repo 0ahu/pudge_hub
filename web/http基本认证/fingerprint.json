@@ -1,0 +1,14 @@
+[
+  {
+    "status_code": 401,
+    "path": "/",
+    "name": "http\u57fa\u672c\u8ba4\u8bc1",
+    "keyword": [
+      "Unauthorized"
+    ],
+    "headers": {
+      "Www-Authenticate": "Basic realm=\"default\""
+    },
+    "favicon_hash": []
+  }
+]

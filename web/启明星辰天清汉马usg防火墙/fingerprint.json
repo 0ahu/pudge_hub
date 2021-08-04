@@ -1,20 +1,13 @@
 [
   {
-    "status_code": 0,
+    "status_code": 200,
     "path": "/",
+    "name": "\u542f\u660e\u661f\u8fb0\u5929\u6e05\u6c49\u9a6cusg\u9632\u706b\u5899",
     "keyword": [
-      "/cgi-bin/webui?op=get_product_model"
+      "Venusense",
+      "\u5929\u6e05\u6c49\u9a6cUSG\u9632\u706b\u5899"
     ],
-    "headers": [],
-    "favicon_hash": []
-  },
-  {
-    "status_code": 0,
-    "path": "/",
-    "keyword": [
-      "\u5929\u6e05\u6c49\u9a6cUSG"
-    ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

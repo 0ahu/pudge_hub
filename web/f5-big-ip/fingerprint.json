@@ -2,10 +2,11 @@
   {
     "status_code": 0,
     "path": "/favicon.ico",
+    "name": "f5-big-ip",
     "keyword": [],
-    "headers": [],
+    "headers": {},
     "favicon_hash": [
-      "-335242539"
+      "04d9541338e525258daf47cc844d59f3"
     ]
   }
 ]

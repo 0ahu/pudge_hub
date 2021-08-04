@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "elasticsearch",
+    "keyword": [
+      "  \"tagline\" : \"You Know, for Search\""
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

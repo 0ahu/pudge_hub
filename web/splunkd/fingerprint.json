@@ -1,0 +1,14 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "splunkd",
+    "keyword": [
+      "<title>splunkd</title>"
+    ],
+    "headers": {
+      "Server": "Splunkd"
+    },
+    "favicon_hash": []
+  }
+]

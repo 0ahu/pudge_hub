@@ -1,11 +1,12 @@
 [
   {
     "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "-895963602"
-    ]
+    "path": "/login",
+    "name": "jupyter-notebook",
+    "keyword": [
+      "<title>Jupyter Notebook</title>"
+    ],
+    "headers": {},
+    "favicon_hash": []
   }
 ]

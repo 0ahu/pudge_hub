@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 0,
+    "path": "/",
+    "name": "phpoa",
+    "keyword": [
+      "url(template/default/images/admin_img/msg.png)"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

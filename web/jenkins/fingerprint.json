@@ -1,11 +1,22 @@
 [
   {
     "status_code": 0,
-    "path": "/favicon.ico",
-    "keyword": [],
-    "headers": [],
-    "favicon_hash": [
-      "81586312"
-    ]
+    "path": "/",
+    "name": "jenkins",
+    "keyword": [
+      "hudson.model.Hudson.Administer"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 200,
+    "path": "/login?from=%2F",
+    "name": "jenkins",
+    "keyword": [
+      "[Jenkins]"
+    ],
+    "headers": {},
+    "favicon_hash": []
   }
 ]

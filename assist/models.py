@@ -4,8 +4,8 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 # Create your models here.
 class Component(models.Model):
-    belong_web = models.BooleanField(default=False, verbose_name="属于Web")
-    belong_server = models.BooleanField(default=False, verbose_name="属于Server")
+    is_web = models.BooleanField(default=False, verbose_name="属于Web")
+    is_server = models.BooleanField(default=False, verbose_name="属于Server")
     name = models.CharField(verbose_name="组件名称", max_length=128, null=False, blank=False, unique=True)
     detail = models.TextField(verbose_name="描述")
     created_at = models.DateTimeField(auto_now_add=True)

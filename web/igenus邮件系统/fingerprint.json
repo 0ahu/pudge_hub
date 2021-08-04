@@ -2,12 +2,12 @@
   {
     "status_code": 0,
     "path": "/",
+    "name": "igenus\u90ae\u4ef6\u7cfb\u7edf",
     "keyword": [
-      "iGENUS",
-      "login.php",
-      "language"
+      "form.action = \"login.php?Cmd=login\";",
+      "iGENUS"
     ],
-    "headers": [],
+    "headers": {},
     "favicon_hash": []
   }
 ]

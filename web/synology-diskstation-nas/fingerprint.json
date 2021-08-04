@@ -1,0 +1,12 @@
+[
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "synology-diskstation-nas",
+    "keyword": [
+      "<meta name=\"application-name\" content=\"Synology DiskStation"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  }
+]

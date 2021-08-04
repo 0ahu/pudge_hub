@@ -1,11 +1,32 @@
 [
   {
+    "status_code": 404,
+    "path": "/",
+    "name": "apache-tomcat",
+    "keyword": [
+      "<h3>Apache Tomcat/"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
+    "status_code": 200,
+    "path": "/",
+    "name": "apache-tomcat",
+    "keyword": [
+      "<title>Apache Tomcat/"
+    ],
+    "headers": {},
+    "favicon_hash": []
+  },
+  {
     "status_code": 0,
     "path": "/favicon.ico",
+    "name": "apache-tomcat",
     "keyword": [],
-    "headers": [],
+    "headers": {},
     "favicon_hash": [
-      "-297069493"
+      "4644f2d45601037b8423d45e13194c93"
     ]
   }
 ]
