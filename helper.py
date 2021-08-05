@@ -1,8 +1,10 @@
+import argparse
 import json
 import os
-import yaml
+from pathlib import Path
 
-from auto_update import replace_name
+import yaml
+import sys
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pudge_hub.settings')
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
@@ -55,8 +57,47 @@ def check_json():  # 检查json格式
                         print("格式错误：", abs_filename)
 
 
-# find_unclassified_yaml()
-# check_json()
+def new_cms(name):
+    if not Path('web/' + name).is_dir():
+        Path('web/' + name).mkdir()
+        with open('web/' + name + '/tags.json', 'w') as tag:
+            tags = {
+                "tags": [
+                    [
+                        name
+                    ]
+                ],
+                "alias_name": name
+            }
+            json.dump(tags, tag, indent=2)
+        with open('web/' + name + '/fingerprint.json', 'w') as fingerprint:
+            fingerprints = [
+                {
+                    "status_code": 0,
+                    "path": "/",
+                    "name": name,
+                    "keyword": [],
+                    "headers": {},
+                    "favicon_hash": []
+                }
+            ]
+            json.dump(fingerprints, fingerprint, indent=2)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--new_cms', type=str, dest='new_cms', help='新建一个CMS')
+    parser.add_argument('--check_json', type=bool, default=True, dest='check_json', help='检查json格式')
+    parser.add_argument('--find_unclassified_yaml', dest='find_unclassified_yaml', help='列出没分类的文件')
+    args = parser.parse_args()
+    # 输出两个部分
+    if args.check_json:
+        check_json()
+    if args.find_unclassified_yaml:
+        find_unclassified_yaml()
+    if args.new_cms:
+        new_cms(args.new_cms)
+
+
 if __name__ == '__main__':
-    find_unclassified_yaml()
-    check_json()
+    main()

@@ -20,6 +20,85 @@ allow_string = string.digits + string.ascii_letters + '-_ '
 poc_dir_list = ['cves', 'cnvd', 'vulnerabilities', 'default-logins', 'exposures', 'miscellaneous', 'misconfiguration']
 web_poc_path = (os.path.join(BASE_DIR, 'web/'))
 server_poc_path = (os.path.join(BASE_DIR, 'server/'))
+readme_md = """
+## PudgeHub
+
+- [Pudge](https://www.pudge.top/)的公开指纹和插件库.
+
+- 法律免责声明
+> 未经事先双方同意，使用Pudge攻击目标是非法的。Pudge仅用于安全测试目的
+
+## 为什么叫Pudge？
+
+- Pudge(帕吉)是DOTA2这个游戏中的一个近战力量英雄，他有一个被动技能：腐肉堆积。
+
+> 给予帕吉魔法抗性加成，并且帕吉每次杀死一个敌方英雄，或者附近有敌方英雄死亡时，帕吉将获得额外的力量。腐肉堆积在学习之前就可以积累力量，但是学习之后才能获得这部分力量。
+  腐肉堆积最可怕的地方则是每当帕吉参与一个击杀，它就能给帕吉提供一定的力量属性永久加成，增加肢解的伤害并且让帕吉越来越难以被击杀。
+  一个熟练的帕吉玩家绝对是令人恐惧的，因为他能像疯了一样滚雪球、击垮敌队、成为一个不可阻挡的腐肉怪兽。
+  
+  https://dota2.fandom.com/zh/wiki/%E5%B8%95%E5%90%89?variant=zh
+
+- 我觉得这很像我这个项目创建的初衷：参与团战获取经验和收集腐肉堆积点数，恰恰漏洞和指纹都需要收集，在后期发挥出作用。
+
+
+## 指纹识别
+
+- 最后还是用自己收集的指纹吧！
+
+### 关键词列表
+
+```json
+["FastAdmin", "fastadmin.net"]
+```
+
+- 匹配什么：body
+- 条件：关键词全部匹配到了才继续。
+
+### 请求头字典
+
+```json
+{"X-Powered-By": "ThinkCMF"}
+
+{"Citrix-TransactionId": "*", "Set-Cookie": "xmscookie"}
+```
+
+- 匹配什么：请求头
+- 条件：在返回的请求头中获取键为`X-Powered-By`的值，判断值里是否存在`ThinkCMF`，存在才继续。
+- 条件：如果Key本身就是特征，而Value是不确定的可以填*，例如第二个：只要判断请求头中有`Citrix-TransactionId`就可以了。
+
+### 状态码
+
+```json
+0
+200
+404
+```
+
+- 匹配什么：状态码
+- 条件：只要状态码不为`0`，都要判断状态码与当前响应的状态码一致**(包括数据类型)**才继续。
+
+### 图标哈希
+
+```json
+["9672fea49d0e2d9f30961d485714aa3d"]
+["1708240621"]
+```
+
+- 匹配什么：获取图标的`md5`和`mmh3`放在一个集合里
+- 条件：用指纹库中的哈希列表转集合，使用集合运算取并集，如果有并集才继续。
+
+- 序列化后的输出格式为`web_fingerprint.json`，Web指纹不再和`EHole`同步更新。
+
+## 插件
+
+- 同步更新[nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)，需要整理tag标签。
+- 支持[pocsuite3](https://github.com/knownsec/pocsuite3/)的插件，待更新！
+
+## Web插件
+
+| Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 |
+| ------- | -------- | -------- | ------- | -------- | -------- | ------- | -------- | -------- | -------- | -------- |
+"""
 
 
 class ServiceScanException(Exception):
@@ -400,74 +479,6 @@ def file_to_db():
     diff_poc_set = db_cms_list_set.difference(cms_list_set)
     for diff_poc in diff_poc_set:
         Component.objects.filter(name=diff_poc).delete()
-
-
-readme_md = """
-## PudgeHub
-
-- [Pudge](https://www.pudge.top/)的公开指纹和插件库.
-
-- 法律免责声明
-> 未经事先双方同意，使用Pudge攻击目标是非法的。Pudge仅用于安全测试目的
-
-## 指纹识别
-
-- 最后还是用自己收集的指纹吧！
-
-### 关键词列表
-
-```json
-["FastAdmin", "fastadmin.net"]
-```
-
-- 匹配什么：body
-- 条件：关键词全部匹配到了才继续。
-
-### 请求头字典
-
-```json
-{"X-Powered-By": "ThinkCMF"}
-
-{"Citrix-TransactionId": "*", "Set-Cookie": "xmscookie"}
-```
-
-- 匹配什么：请求头
-- 条件：在返回的请求头中获取键为`X-Powered-By`的值，判断值里是否存在`ThinkCMF`，存在才继续。
-- 条件：如果Key本身就是特征，而Value是不确定的可以填*，例如第二个：只要判断请求头中有`Citrix-TransactionId`就可以了。
-
-### 状态码
-
-```json
-0
-200
-404
-```
-
-- 匹配什么：状态码
-- 条件：只要状态码不为`0`，都要判断状态码与当前响应的状态码一致**(包括数据类型)**才继续。
-
-### 图标哈希
-
-```json
-["9672fea49d0e2d9f30961d485714aa3d"]
-["1708240621"]
-```
-
-- 匹配什么：获取图标的`md5`和`mmh3`放在一个集合里
-- 条件：用指纹库中的哈希列表转集合，使用集合运算取并集，如果有并集才继续。
-
-- 序列化后的输出格式为`web_fingerprint.json`，Web指纹不再和`EHole`同步更新。
-
-## 插件
-
-- 同步更新[nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)，需要整理tag标签。
-- 支持[pocsuite3](https://github.com/knownsec/pocsuite3/)的插件，待更新！
-
-## Web插件
-
-| Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 |
-| ------- | -------- | -------- | ------- | -------- | -------- | ------- | -------- | -------- | -------- | -------- |
-"""
 
 
 def tags_list_generator(path, tag_flag=False):
