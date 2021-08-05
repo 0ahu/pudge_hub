@@ -99,7 +99,7 @@ class WebFingerPrint(models.Model):
     status_code = models.IntegerField(default=0, verbose_name='状态码')
     headers = models.JSONField(verbose_name="请求头", null=True)
     keyword = models.JSONField(verbose_name="匹配关键词", max_length=1024, null=True)
-    favicon_hash = models.CharField(max_length=32, verbose_name="图标的哈希", blank=True, null=True)
+    favicon_hash = models.JSONField(max_length=32, verbose_name="图标的哈希", blank=True, null=True)
     name = models.CharField(max_length=1024, verbose_name="组件名称")  # 虽然是重复的，但是为了方便识别，还是加上好一点
 
     def save(self, *args, **kwargs):
