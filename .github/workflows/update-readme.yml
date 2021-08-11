@@ -34,6 +34,7 @@ jobs:
           pip install PyYAML
           pip install requests
           pip install django
+          pip install GitPython
           python auto_update.py
           find . -path "*.pyc" -delete
           echo "::set-output name=changes::$(git status -s | wc -l)"
