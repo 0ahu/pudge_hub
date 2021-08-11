@@ -102,7 +102,7 @@
 |[huawei](./web/huawei/)|2|✔️||[ibm-http-server](./web/ibm-http-server/)|0|✔️||[igenus邮件系统](./web/igenus邮件系统/)|0|✔️|
 |[javashop](./web/javashop/)|0|✔️||[jboss](./web/jboss/)|1|✔️||[jeecms](./web/jeecms/)|0|✔️|
 |[jeedom](./web/jeedom/)|1|✔️||[jellyfin](./web/jellyfin/)|2|✔️||[jenkins](./web/jenkins/)|10|✔️|
-|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|10|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
+|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|11|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
 |[jupyter-notebook](./web/jupyter-notebook/)|0|✔️||[kibana](./web/kibana/)|2|✔️||[laravel](./web/laravel/)|6|✔️|
 |[lucee](./web/lucee/)|2|✔️||[magento](./web/magento/)|6|✔️||[mallbuilder](./web/mallbuilder/)|0|✔️|
 |[message-solution](./web/message-solution/)|0|✔️||[metersphere](./web/metersphere/)|0|✔️||[microsoft-exchange](./web/microsoft-exchange/)|0|✔️|
@@ -127,7 +127,7 @@
 |[vmware-secure-file-transfer](./web/vmware-secure-file-transfer/)|0|✔️||[vmware-vcenter](./web/vmware-vcenter/)|2|✔️||[vmware-vrealize-operations-manager](./web/vmware-vrealize-operations-manager/)|1|✔️|
 |[vmware-vsphere](./web/vmware-vsphere/)|0|✔️||[wayos维盟ac集中管理系统](./web/wayos维盟ac集中管理系统/)|0|✔️||[weblogic](./web/weblogic/)|10|✔️|
 |[webmin](./web/webmin/)|1|✔️||[weiphp](./web/weiphp/)|1|✔️||[wishoa](./web/wishoa/)|0|✔️|
-|[wordpress](./web/wordpress/)|195|✔️||[wuzhicms](./web/wuzhicms/)|1|✔️||[xdcms](./web/xdcms/)|1|✔️|
+|[wordpress](./web/wordpress/)|196|✔️||[wuzhicms](./web/wuzhicms/)|1|✔️||[xdcms](./web/xdcms/)|1|✔️|
 |[xiuno](./web/xiuno/)|1|✔️||[xxl-job](./web/xxl-job/)|1|✔️||[yapi](./web/yapi/)|1|✔️|
 |[yii-php-framework](./web/yii-php-framework/)|1|✔️||[zabbix](./web/zabbix/)|3|✔️||[zcms](./web/zcms/)|1|✔️|
 |[zentao](./web/zentao/)|0|✔️||[zimbra](./web/zimbra/)|4|✔️||[zte](./web/zte/)|1|✔️|
