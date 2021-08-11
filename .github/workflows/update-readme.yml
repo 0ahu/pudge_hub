@@ -37,6 +37,7 @@ jobs:
           python auto_update.py
           find . -path "*.pyc" -delete
           echo "::set-output name=changes::$(git status -s | wc -l)"
+          echo "::set-output name=changes_name::$(git status -s)"
 
       - name: Commit files
         if: steps.update-readme.outputs.changes > 1
@@ -44,7 +45,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Auto Update README [$(date)] :robot:" -a
+          git commit -m "Auto Update README [$(date)] :robot: [steps.update-readme.outputs.changes_name]" -a
 
       - name: Push changes
         if: steps.update-readme.outputs.changes > 0

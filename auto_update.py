@@ -17,7 +17,7 @@ from pudge_hub.settings import BASE_DIR
 from assist.models import Plugins, Component, Config, NmapProbe, NmapFingerPrint, WebFingerPrint, Tags
 
 allow_string = string.digits + string.ascii_letters + '-_ '
-poc_dir_list = ['cves', 'cnvd', 'vulnerabilities', 'default-logins', 'exposures', 'miscellaneous', 'misconfiguration']
+poc_dir_list = ['cves', 'cnvd', 'vulnerabilities', 'default-logins', 'exposures', 'miscellaneous']
 web_poc_path = (os.path.join(BASE_DIR, 'web/'))
 server_poc_path = (os.path.join(BASE_DIR, 'server/'))
 readme_md = """
@@ -413,42 +413,6 @@ def create_tags(web_name, tags):
             Tags.objects.filter(**db_tag).delete()
 
 
-def find_tag():
-    local_file_list_set = set([])
-    tags_list = Tags.objects.all().values('name', 'tag')
-    for poc_dir in poc_dir_list:
-        for site, site_list, file_list in os.walk('nuclei-templates/' + poc_dir):
-            for file_name in file_list:
-                abs_filename = os.path.abspath(os.path.join(site, file_name))
-                if file_name.endswith('.yaml') and not file_name.startswith('.'):  # 覆盖
-                    local_file_list_set.add(file_name)
-                    with open(abs_filename, 'r') as y:
-                        yaml_template = yaml.safe_load(y)
-                        try:
-                            tags = set(yaml_template.get('info')['tags'].split(','))
-                            for db_tags in tags_list:
-                                tags_set = tags.issuperset(db_tags.get('tag', []))
-                                pk = db_tags.get('name', 0)
-                                if tags_set:
-                                    defaults = {'code': json.dumps(yaml_template),
-                                                'description': 'Web插件',
-                                                'plugins_hash': md5(json.dumps(yaml_template).encode()).hexdigest(),
-                                                'for_type': "Web", 'plugins_type': '.yaml'}
-                                    plugin_name, _ = Plugins.objects.update_or_create(name=file_name, defaults=defaults)
-                                    web_name = Component.objects.get(pk=pk)
-                                    plugin_name.component.add(web_name)
-                                    # print(plugin_name, _)
-                                    shutil.copy(abs_filename, os.path.join(web_poc_path, web_name.name, file_name))
-                        except KeyError:
-                            pass
-    # 在数据库中删除本地没有的插件
-    plugins_queryset = Plugins.objects.all().values('name')
-    db_file_list_set = set([name['name'] for name in plugins_queryset])
-    diff_plugins_set = db_file_list_set.difference(local_file_list_set)
-    for diff_plugins in diff_plugins_set:
-        Plugins.objects.filter(name=diff_plugins).delete()
-
-
 def file_to_db():
     cms_list_set = set([])
     for site, site_list, file_list in os.walk('web/'):
@@ -479,6 +443,130 @@ def file_to_db():
     diff_poc_set = db_cms_list_set.difference(cms_list_set)
     for diff_poc in diff_poc_set:
         Component.objects.filter(name=diff_poc).delete()
+
+
+from git.diff import Diff
+from git import Repo
+
+
+class NucleiDiffGitMode:
+    def __init__(self, c_ins: Diff, tags_list):
+        self.c_ins = c_ins
+        self.tags_list = tags_list
+        self.mode_map = {"A": 'added', "C": 'added', "D": 'deleted', "R": 'renamed', "M": 'added', "T": 'changed'}
+        self.mode = self.mode_map.get(c_ins.change_type)
+        self.abs_filename = 'nuclei-templates/' + self.c_ins.a_path
+        self.file_name = Path(self.abs_filename).name
+
+    def added(self, abs_filename=None):
+        if abs_filename is None:
+            abs_filename = self.abs_filename
+        with open(abs_filename, 'r') as y:
+            yaml_template = yaml.safe_load(y)
+            try:
+                tags = set(yaml_template.get('info')['tags'].split(','))
+                for db_tags in self.tags_list:
+                    tags_set = tags.issuperset(db_tags.get('tag', []))
+                    pk = db_tags.get('name', 0)
+                    if tags_set:
+                        defaults = {'code': json.dumps(yaml_template),
+                                    'description': 'Web插件',
+                                    'plugins_hash': md5(json.dumps(yaml_template).encode()).hexdigest(),
+                                    'for_type': "Web", 'plugins_type': '.yaml'}
+                        plugin_name, _ = Plugins.objects.update_or_create(name=self.file_name, defaults=defaults)
+                        web_name = Component.objects.get(pk=pk)
+                        plugin_name.component.add(web_name)
+                        shutil.copy(abs_filename, os.path.join(web_poc_path, web_name.name, self.file_name))
+            except KeyError:
+                pass
+
+    def changed(self):
+        pass
+
+    def deleted(self):
+        delete_list = Plugins.objects.filter(name=Path(self.abs_filename).name)
+        for name in delete_list:
+            Plugins.objects.filter(name=self.file_name).delete()
+            components = Component.objects.filter(plugins_list__name=name)
+            for component in components:
+                shutil.rmtree(os.path.join(web_poc_path, component.name, Path(self.abs_filename).name))
+
+    def renamed(self):
+        rename_list = Plugins.objects.filter(name=Path(self.c_ins.rename_from).name)
+        for name in rename_list:
+            Plugins.objects.filter(name=name.name).delete()
+            components = Component.objects.filter(plugins_list__name=name)
+            for component in components:
+                shutil.rmtree(os.path.join(web_poc_path, component.name, Path(self.c_ins.rename_from).name))
+                self.added('nuclei-templates/' + self.c_ins.rename_to)
+
+    def modified(self):
+        pass
+
+    def copied(self):
+        pass
+
+    def run(self):
+        if hasattr(self, self.mode):
+            func = getattr(self, self.mode)
+            func()
+
+
+class PudgeHubDiffGitMode:
+    def __init__(self, c_ins: Diff, tags_list):
+        self.c_ins = c_ins
+        self.tags_list = tags_list
+        self.mode_map = {"A": 'added', "C": 'added', "D": 'deleted', "R": 'renamed', "M": 'added', "T": 'changed'}
+        self.mode = self.mode_map.get(c_ins.change_type)
+        self.abs_filename = self.c_ins.a_path
+        self.file_name = Path(self.abs_filename).name
+
+    def added(self, abs_filename=None):
+        if abs_filename is None:
+            abs_filename = self.abs_filename
+        _, cms_name, file_name = Path(abs_filename).parts
+        if file_name != 'web' and cms_name:
+            web_name = create_component(name=cms_name)
+            if file_name == 'fingerprint.json':
+                with open(abs_filename, 'r') as j:
+                    create_fingerprint(web_name=web_name, fingerprint=json.load(j))
+            elif file_name == 'tags.json':
+                with open(abs_filename, 'r') as j:
+                    create_tags(web_name=web_name, tags=json.load(j))
+            elif file_name.endswith('.yaml') and not file_name.startswith('.'):  # 覆盖
+                with open(abs_filename, 'r') as y:
+                    yaml_template = yaml.safe_load(y)
+                    defaults = {'code': json.dumps(yaml_template),
+                                'description': 'Web插件',
+                                'plugins_hash': md5(json.dumps(yaml_template).encode()).hexdigest(),
+                                'for_type': "Web", 'plugins_type': '.yaml'}
+                    plugin_name, _ = Plugins.objects.update_or_create(name=file_name, defaults=defaults)
+                    plugin_name.component.add(web_name)
+
+    def changed(self):
+        pass
+
+    def deleted(self):
+        if self.file_name.endswith('.yaml'):
+            Plugins.objects.filter(name=self.file_name).delete()
+
+    def renamed(self):
+        rename_list = Plugins.objects.filter(name=Path(self.c_ins.rename_from).name)
+        for name in rename_list:
+            Plugins.objects.filter(name=name.name).delete()
+        self.added(self.c_ins.rename_to)
+
+    def modified(self):
+        pass
+
+    def copied(self):
+        pass
+
+    def run(self):
+        print(self.c_ins.a_path, self.c_ins.change_type)
+        if hasattr(self, self.mode):
+            func = getattr(self, self.mode)
+            func()
 
 
 def tags_list_generator(path, tag_flag=False):
@@ -534,6 +622,25 @@ def update_web_fingerprint_to_file():
         json.dump(tree_fingerprint, wfp)
 
 
+def find_nuclei_git_diff():
+    tags_list = Tags.objects.all().values('name', 'tag')
+    repo = Repo('./nuclei-templates/')
+    current_sha = repo.head.object.hexsha
+    for c in repo.commit('HEAD~100').diff(current_sha):
+        if not c.a_path.startswith('.') and c.a_path.endswith('.yaml') and Path(c.a_path).parts[0] in poc_dir_list:
+            NucleiDiffGitMode(c_ins=c, tags_list=tags_list).run()
+    print(current_sha)
+
+
+def find_pudge_git_diff():
+    tags_list = Tags.objects.all().values('name', 'tag')
+    repo = Repo('./')
+    current_sha = repo.head.object.hexsha
+    for c in repo.commit('HEAD~10').diff(current_sha):
+        if c.a_path.startswith('web/') and any([c.a_path.endswith('.yaml'), c.a_path.endswith('.json')]):
+            PudgeHubDiffGitMode(c_ins=c, tags_list=tags_list).run()
+
+
 if __name__ == '__main__':
     Config.objects.update_or_create(key="is_active", defaults={'value': True})  # 允许自动激活
     Config.objects.update_or_create(key="updating", defaults={'value': True})  # 更新开始标志
@@ -542,9 +649,8 @@ if __name__ == '__main__':
         s = ServiceProbe()
         Config.objects.update_or_create(key="has_service_probe", defaults={'value': True})  # 更新已经存在了Nmap指纹标志
     try:
-        file_to_db()
-        find_tag()
-        file_to_db()
+        find_nuclei_git_diff()
+        find_pudge_git_diff()
         update_readme(path="web/")
     except Exception as E:
         pass
