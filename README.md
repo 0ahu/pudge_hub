@@ -83,7 +83,7 @@
 |[apache-flink](./web/apache-flink/)|1|✔️||[apache-hadoop](./web/apache-hadoop/)|1|✔️||[apache-kylin](./web/apache-kylin/)|0|✔️|
 |[apache-nifi](./web/apache-nifi/)|0|✔️||[apache-shiro](./web/apache-shiro/)|0|✔️||[apache-skywalking](./web/apache-skywalking/)|1|✔️|
 |[apache-solr](./web/apache-solr/)|6|✔️||[apache-struts](./web/apache-struts/)|13|✔️||[apache-tomcat](./web/apache-tomcat/)|3|✔️|
-|[atlassian-jira](./web/atlassian-jira/)|22|✔️||[bullwark](./web/bullwark/)|1|✔️||[cisco](./web/cisco/)|11|✔️|
+|[atlassian-jira](./web/atlassian-jira/)|23|✔️||[bullwark](./web/bullwark/)|1|✔️||[cisco](./web/cisco/)|11|✔️|
 |[citrix-access-gateway](./web/citrix-access-gateway/)|6|✔️||[citrix-xenmobile](./web/citrix-xenmobile/)|0|✔️||[codiad](./web/codiad/)|0|✔️|
 |[confluence](./web/confluence/)|4|✔️||[coremail](./web/coremail/)|1|✔️||[d-link](./web/d-link/)|12|✔️|
 |[dbshop](./web/dbshop/)|0|✔️||[dedecms](./web/dedecms/)|5|✔️||[dejavu](./web/dejavu/)|0|✔️|
@@ -102,7 +102,7 @@
 |[huawei](./web/huawei/)|2|✔️||[ibm-http-server](./web/ibm-http-server/)|0|✔️||[igenus邮件系统](./web/igenus邮件系统/)|0|✔️|
 |[javashop](./web/javashop/)|0|✔️||[jboss](./web/jboss/)|1|✔️||[jeecms](./web/jeecms/)|0|✔️|
 |[jeedom](./web/jeedom/)|1|✔️||[jellyfin](./web/jellyfin/)|2|✔️||[jenkins](./web/jenkins/)|10|✔️|
-|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|31|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
+|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|33|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
 |[jupyter-notebook](./web/jupyter-notebook/)|0|✔️||[kibana](./web/kibana/)|2|✔️||[laravel](./web/laravel/)|6|✔️|
 |[lucee](./web/lucee/)|2|✔️||[magento](./web/magento/)|6|✔️||[mallbuilder](./web/mallbuilder/)|0|✔️|
 |[message-solution](./web/message-solution/)|0|✔️||[metersphere](./web/metersphere/)|0|✔️||[microsoft-exchange](./web/microsoft-exchange/)|0|✔️|
