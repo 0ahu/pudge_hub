@@ -87,8 +87,8 @@
 |[citrix-access-gateway](./web/citrix-access-gateway/)|6|✔️||[citrix-xenmobile](./web/citrix-xenmobile/)|0|✔️||[codiad](./web/codiad/)|0|✔️|
 |[confluence](./web/confluence/)|4|✔️||[coremail](./web/coremail/)|1|✔️||[d-link](./web/d-link/)|12|✔️|
 |[dbshop](./web/dbshop/)|0|✔️||[dedecms](./web/dedecms/)|5|✔️||[dejavu](./web/dejavu/)|0|✔️|
-|[dell](./web/dell/)|4|✔️||[discuz](./web/discuz/)|0|✔️||[django](./web/django/)|4|✔️|
-|[docker](./web/docker/)|3|✔️||[drupal](./web/drupal/)|5|✔️||[ecology泛微-e-weaver](./web/ecology泛微-e-weaver/)|1|✔️|
+|[dell](./web/dell/)|4|✔️||[discuz](./web/discuz/)|0|✔️||[django](./web/django/)|5|✔️|
+|[docker](./web/docker/)|4|✔️||[drupal](./web/drupal/)|5|✔️||[ecology泛微-e-weaver](./web/ecology泛微-e-weaver/)|1|✔️|
 |[ecology泛微-协同商务系统](./web/ecology泛微-协同商务系统/)|0|✔️||[ecology泛微e-mobile](./web/ecology泛微e-mobile/)|0|✔️||[ecology泛微e-office](./web/ecology泛微e-office/)|0|✔️|
 |[ecology泛微云桥e-bridge](./web/ecology泛微云桥e-bridge/)|0|✔️||[ecology泛微协同办公oa](./web/ecology泛微协同办公oa/)|0|✔️||[ejinshan终端](./web/ejinshan终端/)|0|✔️|
 |[elastichd-dashboard](./web/elastichd-dashboard/)|4|✔️||[elasticsearch](./web/elasticsearch/)|0|✔️||[emby](./web/emby/)|1|✔️|
@@ -108,7 +108,7 @@
 |[message-solution](./web/message-solution/)|0|✔️||[metersphere](./web/metersphere/)|0|✔️||[microsoft-exchange](./web/microsoft-exchange/)|0|✔️|
 |[minio](./web/minio/)|1|✔️||[mobileiron](./web/mobileiron/)|1|✔️||[mongodb](./web/mongodb/)|1|✔️|
 |[mongoexpress](./web/mongoexpress/)|0|✔️||[moodle](./web/moodle/)|4|✔️||[nacos](./web/nacos/)|3|✔️|
-|[netdata](./web/netdata/)|1|✔️||[netgear](./web/netgear/)|5|✔️||[nexus-repository-manager](./web/nexus-repository-manager/)|0|✔️|
+|[netdata](./web/netdata/)|1|✔️||[netgear](./web/netgear/)|6|✔️||[nexus-repository-manager](./web/nexus-repository-manager/)|0|✔️|
 |[nps](./web/nps/)|1|✔️||[odoo](./web/odoo/)|1|✔️||[onethink](./web/onethink/)|0|✔️|
 |[opencti](./web/opencti/)|0|✔️||[panabit智能网关](./web/panabit智能网关/)|0|✔️||[phpcms](./web/phpcms/)|0|✔️|
 |[phpmyadmin](./web/phpmyadmin/)|5|✔️||[phpoa](./web/phpoa/)|0|✔️||[plesk](./web/plesk/)|1|✔️|
