@@ -97,7 +97,7 @@
 |[formmail](./web/formmail/)|0|✔️||[fortigate](./web/fortigate/)|1|✔️||[fortinet-fortigate](./web/fortinet-fortigate/)|0|✔️|
 |[foxycart](./web/foxycart/)|0|✔️||[ganttlab](./web/ganttlab/)|0|✔️||[gate-one](./web/gate-one/)|1|✔️|
 |[ghost](./web/ghost/)|1|✔️||[gitea](./web/gitea/)|0|✔️||[gitlab](./web/gitlab/)|7|✔️|
-|[glpi](./web/glpi/)|1|✔️||[gogs](./web/gogs/)|1|✔️||[grafana](./web/grafana/)|3|✔️|
+|[glpi](./web/glpi/)|3|✔️||[gogs](./web/gogs/)|1|✔️||[grafana](./web/grafana/)|3|✔️|
 |[harbor](./web/harbor/)|1|✔️||[horde](./web/horde/)|2|✔️||[http基本认证](./web/http基本认证/)|0|✔️|
 |[huawei](./web/huawei/)|2|✔️||[ibm-http-server](./web/ibm-http-server/)|0|✔️||[igenus邮件系统](./web/igenus邮件系统/)|0|✔️|
 |[javashop](./web/javashop/)|0|✔️||[jboss](./web/jboss/)|1|✔️||[jeecms](./web/jeecms/)|0|✔️|
