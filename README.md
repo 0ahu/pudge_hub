@@ -85,7 +85,7 @@
 |[apache-solr](./web/apache-solr/)|6|✔️||[apache-struts](./web/apache-struts/)|13|✔️||[apache-tomcat](./web/apache-tomcat/)|3|✔️|
 |[atlassian-jira](./web/atlassian-jira/)|23|✔️||[bullwark](./web/bullwark/)|1|✔️||[cisco](./web/cisco/)|11|✔️|
 |[citrix-access-gateway](./web/citrix-access-gateway/)|6|✔️||[citrix-xenmobile](./web/citrix-xenmobile/)|0|✔️||[codiad](./web/codiad/)|0|✔️|
-|[confluence](./web/confluence/)|4|✔️||[coremail](./web/coremail/)|1|✔️||[d-link](./web/d-link/)|12|✔️|
+|[confluence](./web/confluence/)|5|✔️||[coremail](./web/coremail/)|1|✔️||[d-link](./web/d-link/)|12|✔️|
 |[dbshop](./web/dbshop/)|0|✔️||[dedecms](./web/dedecms/)|5|✔️||[dejavu](./web/dejavu/)|0|✔️|
 |[dell](./web/dell/)|4|✔️||[discuz](./web/discuz/)|0|✔️||[django](./web/django/)|5|✔️|
 |[docker](./web/docker/)|5|✔️||[drupal](./web/drupal/)|5|✔️||[ecology泛微-e-weaver](./web/ecology泛微-e-weaver/)|1|✔️|
