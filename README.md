@@ -102,7 +102,7 @@
 |[huawei](./web/huawei/)|2|✔️||[ibm-http-server](./web/ibm-http-server/)|0|✔️||[igenus邮件系统](./web/igenus邮件系统/)|0|✔️|
 |[javashop](./web/javashop/)|0|✔️||[jboss](./web/jboss/)|1|✔️||[jeecms](./web/jeecms/)|0|✔️|
 |[jeedom](./web/jeedom/)|1|✔️||[jellyfin](./web/jellyfin/)|2|✔️||[jenkins](./web/jenkins/)|10|✔️|
-|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|52|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
+|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|53|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
 |[jupyter-notebook](./web/jupyter-notebook/)|0|✔️||[kibana](./web/kibana/)|2|✔️||[laravel](./web/laravel/)|6|✔️|
 |[lucee](./web/lucee/)|2|✔️||[magento](./web/magento/)|6|✔️||[mallbuilder](./web/mallbuilder/)|0|✔️|
 |[message-solution](./web/message-solution/)|0|✔️||[metersphere](./web/metersphere/)|0|✔️||[microsoft-exchange](./web/microsoft-exchange/)|0|✔️|
