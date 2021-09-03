@@ -126,7 +126,7 @@
 |[vectr](./web/vectr/)|0|✔️||[vmware-esxi](./web/vmware-esxi/)|0|✔️||[vmware-horizon](./web/vmware-horizon/)|0|✔️|
 |[vmware-secure-file-transfer](./web/vmware-secure-file-transfer/)|0|✔️||[vmware-vcenter](./web/vmware-vcenter/)|2|✔️||[vmware-vrealize-operations-manager](./web/vmware-vrealize-operations-manager/)|1|✔️|
 |[vmware-vsphere](./web/vmware-vsphere/)|0|✔️||[wayos维盟ac集中管理系统](./web/wayos维盟ac集中管理系统/)|0|✔️||[weblogic](./web/weblogic/)|10|✔️|
-|[webmin](./web/webmin/)|1|✔️||[websvn](./web/websvn/)|0|✔️||[weiphp](./web/weiphp/)|1|✔️|
+|[webmin](./web/webmin/)|1|✔️||[websvn](./web/websvn/)|1|✔️||[weiphp](./web/weiphp/)|1|✔️|
 |[wishoa](./web/wishoa/)|0|✔️||[wordpress](./web/wordpress/)|202|✔️||[wuzhicms](./web/wuzhicms/)|1|✔️|
 |[xdcms](./web/xdcms/)|1|✔️||[xiuno](./web/xiuno/)|1|✔️||[xxl-job](./web/xxl-job/)|1|✔️|
 |[yapi](./web/yapi/)|1|✔️||[yii-php-framework](./web/yii-php-framework/)|1|✔️||[zabbix](./web/zabbix/)|3|✔️|
