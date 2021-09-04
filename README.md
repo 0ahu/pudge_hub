@@ -108,7 +108,7 @@
 |[message-solution](./web/message-solution/)|0|✔️||[metersphere](./web/metersphere/)|0|✔️||[microsoft-exchange](./web/microsoft-exchange/)|0|✔️|
 |[minio](./web/minio/)|1|✔️||[mobileiron](./web/mobileiron/)|1|✔️||[mongodb](./web/mongodb/)|1|✔️|
 |[mongoexpress](./web/mongoexpress/)|0|✔️||[moodle](./web/moodle/)|4|✔️||[nacos](./web/nacos/)|3|✔️|
-|[netdata](./web/netdata/)|1|✔️||[netgear](./web/netgear/)|6|✔️||[nexus-repository-manager](./web/nexus-repository-manager/)|0|✔️|
+|[netdata](./web/netdata/)|1|✔️||[netgear](./web/netgear/)|7|✔️||[nexus-repository-manager](./web/nexus-repository-manager/)|0|✔️|
 |[nps](./web/nps/)|1|✔️||[odoo](./web/odoo/)|1|✔️||[onethink](./web/onethink/)|0|✔️|
 |[opencti](./web/opencti/)|0|✔️||[panabit智能网关](./web/panabit智能网关/)|0|✔️||[phpcms](./web/phpcms/)|0|✔️|
 |[phpmyadmin](./web/phpmyadmin/)|5|✔️||[phpoa](./web/phpoa/)|0|✔️||[plesk](./web/plesk/)|1|✔️|
