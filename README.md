@@ -77,7 +77,7 @@
 | Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 || Web组件 | 数量 | 指纹 |
 | ------- | -------- | -------- | ------- | -------- | -------- | ------- | -------- | -------- | -------- | -------- |
 |[360新天擎](./web/360新天擎/)|0|✔️||[74cms](./web/74cms/)|1|✔️||[78oa办公系统](./web/78oa办公系统/)|0|✔️|
-|[acunetix-wvs](./web/acunetix-wvs/)|0|✔️||[adminer](./web/adminer/)|0|✔️||[amazon](./web/amazon/)|3|✔️|
+|[acunetix-wvs](./web/acunetix-wvs/)|0|✔️||[adminer](./web/adminer/)|1|✔️||[amazon](./web/amazon/)|3|✔️|
 |[apache-activemq](./web/apache-activemq/)|2|✔️||[apache-airflow](./web/apache-airflow/)|6|✔️||[apache-ambari](./web/apache-ambari/)|1|✔️|
 |[apache-axis2](./web/apache-axis2/)|2|✔️||[apache-cocoon](./web/apache-cocoon/)|1|✔️||[apache-druid](./web/apache-druid/)|1|✔️|
 |[apache-flink](./web/apache-flink/)|1|✔️||[apache-hadoop](./web/apache-hadoop/)|1|✔️||[apache-kylin](./web/apache-kylin/)|0|✔️|
