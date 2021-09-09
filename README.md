@@ -79,7 +79,7 @@
 |[360新天擎](./web/360新天擎/)|0|✔️||[74cms](./web/74cms/)|1|✔️||[78oa办公系统](./web/78oa办公系统/)|0|✔️|
 |[acunetix-wvs](./web/acunetix-wvs/)|0|✔️||[adminer](./web/adminer/)|1|✔️||[amazon](./web/amazon/)|3|✔️|
 |[apache-activemq](./web/apache-activemq/)|2|✔️||[apache-airflow](./web/apache-airflow/)|6|✔️||[apache-ambari](./web/apache-ambari/)|1|✔️|
-|[apache-axis2](./web/apache-axis2/)|2|✔️||[apache-cocoon](./web/apache-cocoon/)|1|✔️||[apache-druid](./web/apache-druid/)|1|✔️|
+|[apache-axis2](./web/apache-axis2/)|2|✔️||[apache-cocoon](./web/apache-cocoon/)|1|✔️||[apache-druid](./web/apache-druid/)|2|✔️|
 |[apache-flink](./web/apache-flink/)|1|✔️||[apache-hadoop](./web/apache-hadoop/)|1|✔️||[apache-kylin](./web/apache-kylin/)|0|✔️|
 |[apache-nifi](./web/apache-nifi/)|0|✔️||[apache-shiro](./web/apache-shiro/)|0|✔️||[apache-skywalking](./web/apache-skywalking/)|1|✔️|
 |[apache-solr](./web/apache-solr/)|6|✔️||[apache-struts](./web/apache-struts/)|13|✔️||[apache-tomcat](./web/apache-tomcat/)|3|✔️|
@@ -102,7 +102,7 @@
 |[huawei](./web/huawei/)|2|✔️||[ibm-http-server](./web/ibm-http-server/)|0|✔️||[igenus邮件系统](./web/igenus邮件系统/)|0|✔️|
 |[javashop](./web/javashop/)|0|✔️||[jboss](./web/jboss/)|1|✔️||[jeecms](./web/jeecms/)|0|✔️|
 |[jeedom](./web/jeedom/)|1|✔️||[jellyfin](./web/jellyfin/)|2|✔️||[jenkins](./web/jenkins/)|10|✔️|
-|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|69|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
+|[jetty](./web/jetty/)|5|✔️||[joomla](./web/joomla/)|70|✔️||[jumpserver](./web/jumpserver/)|0|✔️|
 |[jupyter-notebook](./web/jupyter-notebook/)|0|✔️||[kibana](./web/kibana/)|2|✔️||[laravel](./web/laravel/)|6|✔️|
 |[lucee](./web/lucee/)|2|✔️||[magento](./web/magento/)|6|✔️||[mallbuilder](./web/mallbuilder/)|0|✔️|
 |[message-solution](./web/message-solution/)|0|✔️||[metersphere](./web/metersphere/)|0|✔️||[microsoft-exchange](./web/microsoft-exchange/)|0|✔️|
