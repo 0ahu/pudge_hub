@@ -106,7 +106,7 @@
 |[jupyter-notebook](./web/jupyter-notebook/)|0|✔️||[kibana](./web/kibana/)|2|✔️||[laravel](./web/laravel/)|6|✔️|
 |[lucee](./web/lucee/)|2|✔️||[magento](./web/magento/)|6|✔️||[mallbuilder](./web/mallbuilder/)|0|✔️|
 |[message-solution](./web/message-solution/)|0|✔️||[metersphere](./web/metersphere/)|0|✔️||[microsoft-exchange](./web/microsoft-exchange/)|0|✔️|
-|[minio](./web/minio/)|1|✔️||[mobileiron](./web/mobileiron/)|1|✔️||[mongodb](./web/mongodb/)|1|✔️|
+|[minio](./web/minio/)|2|✔️||[mobileiron](./web/mobileiron/)|1|✔️||[mongodb](./web/mongodb/)|1|✔️|
 |[mongoexpress](./web/mongoexpress/)|0|✔️||[moodle](./web/moodle/)|4|✔️||[nacos](./web/nacos/)|3|✔️|
 |[netdata](./web/netdata/)|1|✔️||[netgear](./web/netgear/)|7|✔️||[nexus-repository-manager](./web/nexus-repository-manager/)|0|✔️|
 |[nps](./web/nps/)|1|✔️||[odoo](./web/odoo/)|1|✔️||[onethink](./web/onethink/)|0|✔️|
