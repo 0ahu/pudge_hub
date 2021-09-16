@@ -82,7 +82,7 @@
 |[apache-axis2](./web/apache-axis2/)|2|✔️||[apache-cocoon](./web/apache-cocoon/)|1|✔️||[apache-druid](./web/apache-druid/)|2|✔️|
 |[apache-flink](./web/apache-flink/)|1|✔️||[apache-hadoop](./web/apache-hadoop/)|1|✔️||[apache-kylin](./web/apache-kylin/)|0|✔️|
 |[apache-nifi](./web/apache-nifi/)|0|✔️||[apache-shiro](./web/apache-shiro/)|0|✔️||[apache-skywalking](./web/apache-skywalking/)|1|✔️|
-|[apache-solr](./web/apache-solr/)|6|✔️||[apache-struts](./web/apache-struts/)|13|✔️||[apache-tomcat](./web/apache-tomcat/)|3|✔️|
+|[apache-solr](./web/apache-solr/)|6|✔️||[apache-struts](./web/apache-struts/)|14|✔️||[apache-tomcat](./web/apache-tomcat/)|3|✔️|
 |[atlassian-jira](./web/atlassian-jira/)|23|✔️||[bullwark](./web/bullwark/)|1|✔️||[cisco](./web/cisco/)|11|✔️|
 |[citrix-access-gateway](./web/citrix-access-gateway/)|6|✔️||[citrix-xenmobile](./web/citrix-xenmobile/)|0|✔️||[codiad](./web/codiad/)|0|✔️|
 |[confluence](./web/confluence/)|5|✔️||[coremail](./web/coremail/)|1|✔️||[d-link](./web/d-link/)|12|✔️|
